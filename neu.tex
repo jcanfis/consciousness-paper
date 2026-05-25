@@ -1,0 +1,1781 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{geometry}
+\usepackage{csquotes}
+\usepackage[authoryear,round]{natbib}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta}
+
+\geometry{left=28mm,right=28mm,top=28mm,bottom=30mm}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=blue
+}
+\setlist[itemize]{topsep=4pt,itemsep=2pt}
+\setlist[enumerate]{topsep=4pt,itemsep=2pt}
+
+\title{\textbf{Bewusstsein als Interpretationsresultat}\\
+\large Ein Kopplungsmodell des Bewusstseins}
+\author{Ein kollaboratives Gedankenexperiment}
+\date{Preprint-Fassung, Mai 2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+In dieser Arbeit wird ein kopplungsbasiertes Modell vorgestellt, welches das Bewusstsein als Ergebnis eines Prozesses darstellt, welcher ein nichtlokales und nichtlineares Datenfeld auf eine lokale Konfiguration im Gehirn abbildet. Durch diesen Abbildungsprozess erfolgt eine Interpretation der Daten, welche diesen Zeit, Raum und verschiedene Gewichtungen verleiht.
+In diesem Modell ist für die Entstehung einer Interpretation ein Zusammenspiel des Gehirns als lokale Konfiguration und Sensordaten genauso notwendig wie die Kopplung an ein Quantenfeld, welches durch den Wellenkollaps einen Abbildungsprozess ausführt. Beide Komponenten allein sind nicht ausreichend für eine Interpretation, da eine Kopplung notwendig ist.
+Das Modell verbindet neuronale Felddynamik, adaptive Einzelneuronenprozesse und quantenphysikalischen Kollaps zu einer gemeinsamen Architektur. Daraus bieten sich Anwendungsmöglichkeiten zur Interpretation für subjektive Zeitbindung, Individualität, Erinnerung, veränderte Bewusstseinszustände und Störungen des Interpreters an. Eine numerische Simulation zeigt eine plausible Anschlussstelle an Libets Zeitfenster bewusster Wahrnehmung.
+\end{abstract}
+
+\tableofcontents
+\addcontentsline{toc}{section}{Einleitung}
+\newpage
+
+\section*{Einleitung}
+Jeder Mensch empfindet sich als ein eigenes Bewusstsein, welches sich von Milliarden
+anderen Menschen unterscheidet und jedes einzelne zu einem einzigartigen Individuum
+formt. Bis heute fehlt eine fundierte Erklärung dafür, wie aus biologischer
+Materie subjektives Erleben entsteht.
+
+Auch wenn die Wissenschaft in ihren Versuchen, die Entstehung zu erklären, viele
+verschiedene Phänomene erklären kann, gibt es doch einen großen Bereich, der bisher
+einfach nicht erschließbar war. Zudem wurde bisher die Möglichkeit einer nicht-lokalen
+Datengrundlage und einer Verarbeitung auf Quantenebene strikt abgelehnt, da die
+feuchte, warme und nicht symmetrische Form des Gehirns diese schlicht und einfach mit
+zu vielen Hintergrundgeräuschen zerstört hätte.
+
+Dieser Einwand war lange überzeugend. Neuere experimentelle Befunde zeigen jedoch,
+dass biologische Systeme unter bestimmten strukturellen Bedingungen Quantenkohärenz
+weit länger aufrechterhalten können als bisher angenommen. Das Dekohärenzproblem ist
+nicht gelöst, aber die Ablehnung quantenmechanischer Prozesse im Gehirn
+ist in dieser Deutlichkeit nicht mehr möglich.
+
+Aus diesem Befund heraus möchte ich hier aufzeigen, wie ein Mensch anhand seiner
+Erfahrungen und Sinneseindrücke, welche biologisch gespeichert werden, auf Daten,
+welche nicht lokal gespeichert werden, zugreifen und diese verarbeiten kann. Dieser
+Prozess der Interpretation erzeugt ein sehr individuelles Bild seiner Umgebung und
+anderer Menschen, welches wir als persönliches Erleben in einem Zeitstrahl empfinden.
+Dabei ist der in der Physik bekannte Wellenkollaps und die daraus entstehende
+Übersetzung die Möglichkeit, einen Punkt als Ursprung unseres Bewusstseins zu
+definieren.
+
+Um den ganzen Prozess zu veranschaulichen, möchte ich mit Ihnen zusammen von der
+eigentlichen Architektur und neuen wissenschaftlichen Daten bis hin zu
+Anwendungsbeispielen des Modells anhand von mehreren Zuständen gehen.
+Dazu verwende ich als visuelle Veranschaulichung das Bild eines Webbrowsers. Dieser
+arbeitet auf lokalen Konfigurationsdaten und der verfügbaren Hardware, um Daten aus
+einer nicht lokalen Datenquelle zu interpretieren.
+
+Dabei ist dieses Modell keine Radio- oder Produktionstheorie. Weder das Gehirn noch
+das Quantenfeld ist allein die Quelle des Bewusstseins. Erst die Kopplung und der
+dadurch stattfindende Abbildungsprozess erzeugen die Interpretation.
+
+% -----------------------------------------------------------------------
+\section{Was ist Bewusstsein?}
+
+Kein Mensch erlebt die Welt so wie ein anderer. Zwei Menschen stehen nebeneinander
+und sehen dasselbe Gebäude, hören dieselbe Musik, riechen denselben Regen — und
+dennoch ist das, was in ihnen entsteht, ein anderes Bild. Dieses Bild ist nicht
+einfach eine Kopie der Außenwelt. Es ist eine Interpretation.
+
+Das Gehirn empfängt permanent Signale: Licht, Ton, Druck, Temperatur, chemische
+Reize. Diese Rohdaten werden gefiltert, gewichtet und mit allem verglichen, was das
+Gehirn bereits gespeichert hat. Erfahrungen aus der Kindheit, erlernte Sprachen,
+kulturelle Prägungen, emotionale Erinnerungen — all das fließt in die Verarbeitung
+ein. Was wir als Wahrnehmung erleben, ist bereits das Ergebnis dieses hochindividuellen
+Prozesses.
+
+Wenn wir uns dazu einen Webbrowser vorstellen, können wir das einzelne Individuum
+wie einen sehr persönlich konfigurierten Browser vorstellen. Jeder hat andere
+Einstellungen, einen anderen Cache, andere Lesezeichen, eine andere Sprache. Dieselbe
+Seite wird in jedem Browser anders gerendert. Der Unterschied liegt nicht in den Daten,
+er liegt im Browser.
+
+Doch woher kommen die Daten, auf die dieser persönlich konfigurierte Browser zugreift?
+Die Annahme der klassischen Neurowissenschaft lautet: ausschließlich von innen. Das
+Gehirn speichert, was die Sinne liefern, und verarbeitet nur das. Doch es gibt
+Beobachtungen, die sich mit dieser Annahme nicht vollständig erklären lassen. Menschen
+berichten von Erfahrungen, die über den Rahmen lokaler Sinneswahrnehmung hinausgehen.
+Die Frage, ob ein Teil der Daten nicht lokal gespeichert, sondern von außen abgerufen
+wird, lässt sich mit dem bisherigen Modell nicht beantworten.
+
+Larry Dossey beschreibt in \emph{One Mind} \citep{dossey2013} dieses Paradox präzise:
+Jeder Mensch erlebt sich als vollständig eigenständiges Bewusstsein, abgetrennt von
+allen anderen. Und dennoch greifen alle auf dieselbe Grundlage zu. Das Individuelle
+entsteht nicht durch eine andere Datenbasis, sondern durch eine andere Art, dieselbe
+Basis zu lesen.
+
+\subsection*{Phänomene jenseits des geschlossenen Modells}
+
+Das Gehirn als biologisch einzigartiger Apparat reicht allein schon aus, um
+Individuen zu erzeugen. Jeder Mensch hat andere Gene, eine andere
+Entwicklungsgeschichte, andere neuronale Verschaltungen. Doch es gibt eine Reihe gut
+dokumentierter Phänomene, für die ein rein abgeschlossenes Modell des Gehirns — ein
+Browser ohne Internetverbindung — keine befriedigende Erklärung liefert.
+
+Benjamin Libet zeigte in seinen Experimenten zur subjektiven Zeit, dass das Gehirn
+bewusste Wahrnehmung rückwirkend zeitlich verortet \citep{libet2004}. Es konstruiert
+ein \emph{Jetzt}, das so nicht existiert. Was wir als Gegenwart erleben, ist eine
+Nachbearbeitung. Das Gehirn schreibt seine eigene Zeitleiste.
+
+Nahtoderfahrungen stellen das geschlossene Modell vor ein anderes Problem. Patienten
+berichten von strukturierten, klaren Erlebnissen während klinischen Herzstillstands,
+also in einem Zustand, in dem das Gehirn nach klassischem Verständnis kein Bewusstsein
+produzieren kann \citep{parnia2014,parnia2023,sartori2008}. Anästhesie zeigt dasselbe
+Paradox von einer anderen Seite: Sie schaltet Bewusstsein zuverlässig aus, ohne die
+vegetativen Funktionen des Gehirns zu unterbrechen. Bewusstsein und Hirnfunktion sind
+offenbar nicht identisch.
+
+Auf neuronaler Ebene zeigt das angepasste Hodgkin-Huxley-Modell, dass Neuronen nicht
+nur schalten, sondern ihren Schwellenwert adaptiv anpassen. Erfahrungen verändern
+buchstäblich, wie das Netzwerk auf zukünftige Signale reagiert. Das Gehirn schreibt
+sich selbst um — nicht als Metapher, sondern als messbarer biophysikalischer Vorgang.
+
+\subsection*{Bewusstsein in bestehenden Theorien}
+
+Zwei führende Theorien markieren den Ausgangspunkt. Die \emph{Global Workspace
+Theory}~\citep{dehaene2011} beschreibt Bewusstsein als globale Verfügbarkeit von
+Information — empirisch gut belegt durch kortikale Ignitionsmuster, aber ohne den
+physikalischen Kopplungsmechanismus selbst zu modellieren. Die \emph{Integrated
+Information Theory}~\citep{tononi2004} formalisiert Bewusstsein als integrative
+Information ($\Phi$) — präzise, aber ohne den Kollaps-Abbildungsprozess zu
+umfassen, durch den aus einem integrierten Zustand subjektives Erleben wird.
+Das Interpreter-Modell setzt an beiden Punkten an: $K_i$ ist die physikalische
+Grundlage dessen, was GWT funktional beschreibt; $\Phi$ beschreibt einen Zustand,
+der Kollaps erklärt, wie aus diesem Zustand Erleben wird.
+
+% -----------------------------------------------------------------------
+\section{Die körperliche Komponente}
+\label{sec:bio}
+
+Das Gehirn ist die körperliche Seite des Interpretationsprozesses — nicht das
+Bewusstsein selbst, aber ohne es entsteht keines. Die folgenden Abschnitte beschreiben
+die biologischen und biophysikalischen Strukturen, die $K_i$ implementieren: von der
+makroskopischen Felddynamik neuronaler Populationen über das adaptive Einzelneuron
+bis zur Quantenkohärenz als Substrat der Kopplung.
+
+Stuart Hameroff und Roger Penrose entwickelten mit der Orchestrated Objective
+Reduction (Orch~OR) ein Modell, das genau hier ansetzt.
+Bewusstsein entsteht demnach durch Quantenprozesse in den Mikrotubuli der Neuronen —
+winzige Proteinstrukturen, die das Zytoskelett der Zellen bilden. Der Wellenkollaps
+innerhalb dieser Strukturen ist in Orch~OR der physikalische Moment des Bewusstseins.
+
+Der sofortige Einwand lautet: Das Gehirn ist zu warm, zu feucht und zu verrauscht.
+Quantenzustände zerfallen in biologischem Gewebe nach wenigen Femtosekunden — viel
+zu schnell, um für neuronale Prozesse relevant zu sein. Dieser Einwand ist präzise,
+gut quantifiziert und war lange das stärkste Gegenargument gegen jede Quantentheorie
+des Bewusstseins.
+
+Penrose hat darauf stets geantwortet, dass der Einwand am falschen Ort ansetzt.
+Inzwischen gibt es experimentelle Belege, die das untermauern: In Mikrotubuli — den
+Proteinstrukturen im Inneren von Neuronen, auf die Hameroff und Penrose ihr Modell
+stützen \citep{hameroff2014} — wurden unter biologisch realistischen Bedingungen
+stabile Quantenschwingungen nachgewiesen \citep{tuszynski2024,wiest2025spintronic}.
+Noch direkter: Wird die Stabilität dieser Strukturen gezielt erhöht, verzögert sich
+nachweislich der Verlust des Bewusstseins unter Narkose \citep{wiest2025substrate}.
+Das Gehirn schützt seine Quantenzustände aktiv.
+
+% -----------------------------------------------------------------------
+\subsection*{Kohärenzbasis: Fröhlich-Kondensat}
+
+Damit ein Quantenfeld im biologischen Gewebe als Informationsquelle wirken kann,
+muss Quantenkohärenz hinreichend lang aufrechterhalten werden. Fröhlich zeigte 1968,
+dass polar strukturierte Makromoleküle unter metabolischer Energiezufuhr kollektive
+Schwingungsmoden ausbilden, die langreichweitige Kohärenz ermöglichen~\citep{frohlich1968}.
+Diese theoretische Vorhersage findet in biologischen Systemen mehrere Anschlusspunkte:
+Quantenkohärenz in Photosynthesesystemen~\citep{engel2007} zeigt, dass kohärente
+Prozesse im warmen, feuchten biologischen Milieu grundsätzlich möglich sind —
+ein konzeptueller Anschlusspunkt, kein direkter Beleg für neuronale Kohärenz.
+Direktere Anschlusspunkte liefern der Nachweis von Superradianz in Tubulinpolymeren
+unter biologisch realistischen Bedingungen~\citep{tuszynski2024} sowie spintronische
+Kohärenz in Mikrotubuli~\citep{wiest2025spintronic}. Kohärenz in biologisch relevanten
+Strukturen hat damit konkrete empirische Anschlusspunkte; eine vollständige Bestätigung
+für den neuronalen Kontext im Sinne des Interpreter-Modells steht aus. Theoretische Modellierung
+zeigt darüber hinaus, dass Mikrotubuli als hochgütige QED-Kavitäten fungieren können,
+in denen Dipolwechselwirkungen zwischen Tubulin und geordneten Wassermolekülen
+Kohärenzzeiten von $\sim\!10^{-6}$~s unter physiologischen Bedingungen ermöglichen~\citep{mavromatos2025}.
+
+% -----------------------------------------------------------------------
+\subsection*{Neurodynamische Grundlagen}
+
+Das Interpreter-Modell wird neurodynamisch auf zwei Ebenen beschrieben,
+die ineinandergreifen: die makroskopische Felddynamik neuronaler Populationen
+und die mesoskopische Einzelneuronenebene mit adaptiver Schwelle. Der
+Quantenkollaps als Interpretationsmoment ist Gegenstand von
+Kapitel~\ref{sec:kopplung}.
+
+\paragraph{Ebene~1 — Makroskopisches Neuronenfeld (Wilson-Cowan).}
+Erregung breitet sich durch das Gehirn aus und wird dabei durch die lokale
+Verschaltungsstruktur geformt. Das Quantenfeld wird vom Netzwerk wie jeder
+andere Eingang behandelt und verarbeitet, ohne dass es eine gesonderte
+Empfangsstruktur benötigt. Auf dieser Ebene ist der Interpreter als räumlich
+verteiltes, durch Erfahrung geformtes Aktivitätsmuster sichtbar
+(Anhang~B, Gleichung~\eqref{eq:wilsoncowan};
+\citealt{wilsoncowan1972}).
+
+\paragraph{Ebene~2 — Adaptives Einzelneuron (Brette-Gerstner AdEx).}
+Ein Neuron mit langer Feuergeschichte reagiert anders als ein frisches,
+weil es schrittweise einen internen Anpassungszustand aufbaut, der jede
+Auslösung mit sich trägt. Jeder Impuls hinterlässt ein kleines Stück
+gespeicherte Erfahrung, sodass der nächste Eingang auf ein bereits geprägtes
+System trifft. Das Gehirn leitet eingehende Signale damit nicht einfach
+weiter, sondern verarbeitet sie durch diesen vorgeformten Zustand, auf den
+auch der Eingang aus dem Quantenfeld wirkt wie jeder andere Sinnesreiz
+(Anhang~B, Gleichungen~\eqref{eq:adex_V}–\eqref{eq:adex_w};
+\citealt{brettegerstner2005}).
+
+% -----------------------------------------------------------------------
+
+% -----------------------------------------------------------------------
+\section{Das Datenfeld $\varphi_Q$: zeitloser Datensatz und seine Eigenschaften}
+\label{sec:datenfeld}
+
+Der lokale Kopplungszustand $K_i$ ist die eine Komponente des Modells. Die
+andere ist das Feld, an das er koppelt. Ein Quantencomputer rechnet nicht im Vakuum — er
+rechnet auf einem Quantenzustand. Was $\varphi_Q$ ausmacht, sind seine
+funktionalen Eigenschaften: es ist ein zeitloser Datensatz — ohne Zeitstempel,
+ohne Ortsindex, ohne Exklusivanker; zugänglich für viele Interpreter gleichzeitig,
+Einprägungen koexistieren ohne Überschreiben.
+
+\subsection*{Vier Eigenschaften des zeitlosen Datensatzes}
+
+\textbf{Akkumulation ohne Überschreiben.} Jeder Kollaps hinterlässt eine
+Einprägung im Feldzustand — eine Modifikation der Superposition ohne Zeitstempel.
+$\varphi_Q$ ist kein Ringpuffer — ältere Muster werden nicht verdrängt. Die Kapazität ist groß, aber endlich: oberhalb der
+Hopfield-Kapazitätsgrenze (${\approx}0{,}14 \cdot N$) nimmt die
+Abrufqualität durch Überlapp-Interferenz ab (Panel~A,
+Abbildung~\ref{fig:phiq_sim}).
+Dieses Akkumulationsprinzip ist ein strukturelles Postulat des Modells — kein abgeleitetes Resultat.
+
+\textbf{Mapping und Einprägung: asymmetrisches Fundament.}
+Das Modell unterscheidet zwei Vorgänge mit unterschiedlichem Absicherungsgrad.
+Das \emph{Mapping} — $K_i$ projiziert beim Kollaps zeitlose Feldinhalte aus
+$\varphi_Q$ durch den biographischen Filter $B_i$ auf eine erlebte Sequenz —
+ist der formal gestützte Kern: Orch-OR, AdEx und Wilson-Cowan liefern
+Mechanismus und Parameter.
+Die \emph{Einprägung} — jeder Kollaps hinterlässt eine Modifikation des
+Feldzustands als Superpositionsbeitrag — ist ein strukturelles Postulat, kein
+abgeleitetes Resultat. Für Anwendungsbeispiele wie Reinkarnation, One Mind
+oder kollektives Lernen ist sie ein relevanter Anschlusspunkt.
+
+\textbf{Zeitlosigkeit.} $\varphi_Q$ trägt keinen Zeitindex — der Feldzustand als Quantenfeld
+kennt keine zeitliche Sequenzierung. Einprägungen sind Modifikationen
+der Superposition: sie koexistieren als Beiträge zum Feldzustand, ohne
+dass eine der anderen vorausgeht. Die physikalische Begründung
+folgt im nächsten Unterabschnitt; die funktionale Konsequenz zeigt
+Panel~B direkt: das $\varphi_Q$-Feld zeigt keinen Abrufverfall,
+klassisches Gedächtnis folgt dem Ebbinghaus-Exponential $R(t) = e^{-t/S}$.
+
+\textbf{Nicht-Lokalität.} $\varphi_Q$ trägt keinen Ortsindex. Die Herkunft
+eines Musters im Feld — räumlich wie zeitlich — ist für den Abrufmechanismus
+irrelevant. Das ist die strukturelle Grundlage aller Phänomene in Abschnitt~\ref{sec:phaenomene}.
+
+\textbf{Ungestörter Mehrfachzugriff.} Viele $K_i$ greifen gleichzeitig auf
+dasselbe Feld zu, ohne sich gegenseitig zu stören. Panel~C zeigt, dass die
+Abrufqualität konstant bleibt, unabhängig davon wie viele Interpreter
+simultan zugreifen.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\textwidth]{../phi_q_sim.png}
+  \caption{$\varphi_Q$ als zeitloser Datensatz (Simulation).
+    A: Kapazitätsgrenze bei ${\approx}0{,}14 \cdot N$.
+    B: Kein Abrufverfall (flach) vs.\ Ebbinghaus-Exponential.
+    C: Simultanzugriff bis 21~$K_i$ ohne Qualitätsverlust.
+    D: Feldakkumulation durch Vorgänger-Kerne.
+    E: Kollapszeit $\tau_i = \hbar/E_G$ als Funktion der gravitativen Selbstenergie.}
+  \label{fig:phiq_sim}
+\end{figure}
+
+\subsection*{Physikalische Adresse von $\varphi_Q$}
+
+Ein vollständiger Interpretationsprozess erfordert vier funktionale Komponenten.
+Jede hat eine spezifische Rolle; keine reicht allein aus; zusammen lassen sie
+keine tragende Lücke offen.
+
+\textbf{a) Substrateigenschaften.}
+$\varphi_Q$ bezeichnet den Gravitationssektor der universellen Wellenfunktion
+$|\Psi\rangle$ im Sinne der Wheeler-DeWitt-Gleichung: die quantengravitativ
+beschriebenen Freiheitsgrade der Raumzeit-Geometrie, aus denen CDT geordnete
+Raumzeit konstruiert.
+Penroses Twistor-Theorie~\citep{penrose1967} beschreibt eine zeitlose Geometrie,
+aus der Raumzeit-Punkte erst durch den Abbildungsprozess auf einen Zeitstrahl
+geordnet werden — die Zeitlinie ist kein Fundament des Feldes, sondern Ergebnis
+der Abbildung. Die Wheeler-DeWitt-Gleichung~\citep{dewitt1967}
+\begin{equation}
+  \hat{H}\,|\Psi\rangle = 0
+  \label{eq:wdw}
+\end{equation}
+trägt keinen Zeitparameter — direkte Konsequenz der Hamiltonian-Constraint-Bedingung
+im geschlossenen Universum: der Gesamthamiltonoperator verschwindet, die Gleichung
+enthält keinen Zeitparameter. In der ungebrochenen Supersymmetrie heben sich
+bosonische und fermionische Vakuumbeiträge exakt auf: Grundzustandsenergie null,
+ein weiteres $H = 0$ aus dem Symmetrieprinzip. Twistor, WdW und Supersymmetrie
+charakterisieren die Substrateigenschaften von $\varphi_Q$: zeitlos, kein Raumindex,
+Zeitordnung als Abbildungsergebnis — nicht als Substrat.
+
+\textbf{b) Geometrischer Abbildungsmechanismus.}
+Causal Dynamical Triangulations~\citep{ambjorn2004} zeigen numerisch, wie aus
+zeitlosen 4-Simplizes durch kausale Verklebungsregeln physikalisch sinnvolle
+4D-Raumzeit entsteht (Gleichung~\eqref{eq:cdt}, \emph{Physical Review Letters}).
+Nicht das geometrische Objekt trägt Zeit — Zeitordnung entsteht als Eigenschaft
+der Verklebungsregel. $K_i$'s Kollaps-Abbildung ist strukturell dieselbe
+Operation auf biologischer Ebene: zeitloser Feldzustand $\varphi_Q$ wird durch
+biographische Verklebung auf die erlebte Sequenz projiziert.
+CDT schließt die Lücken, die (a) offen lässt: es liefert den
+Konstruktionsbeweis und definiert die physikalische Adresse von $\varphi_Q$ —
+die Planck-Geometrie, an die Orch~OR koppelt.
+
+\textbf{c) Biologische Kopplung.}
+Orchestrated Objective Reduction~\citep{penrose1994,hameroff2014} liefert den
+biologischen Zugang: Tubulin-Superpositionen in Mikrotubuli erreichen die
+E$_G$-Schwelle und koppeln beim Kollaps an die Planck-Geometrie — die (b)
+beschreibt. Orch~OR beschreibt diesen Teilprozess; das Interpreter-Modell
+bettet ihn in den vollständigen Interpretationsprozess ein.
+Den physikalischen Mechanismus zeigen Gleichungen~\eqref{eq:cdt}–\eqref{eq:kopplungskette}.
+
+\textbf{d) Energielose Führung.}
+Bohms Quantenpotential~\citep{bohm1980} liefert den Führungsmechanismus
+(Gleichung~\eqref{eq:bohm_Q}): das globale Feld führt lokale Systeme durch
+aktive Information ohne Energieübertrag. $K_i$ liest $\varphi_Q$ nicht durch
+direkte Wechselwirkung — das Feld formt die Trajektorie des Kollapses.
+
+$\varphi_Q$ ist nicht zeitlos weil es lange hält. Es ist zeitlos weil der
+Feldzustand als Quantenfeld keinen Zeitindex trägt — ein zeitloser Datensatz,
+keine Zeitlinie. Zeitordnung ist eine Leistung des Interpreters: $K_i$ bildet
+beim Kollaps zeitlose Feldinhalte auf die biographische Sequenz von $B_i$ ab.
+Was je kollabiert ist, ist darin enthalten — Einprägungen tragen keinen
+Zeitstempel und vergehen nicht sequenziell.
+
+Akkumulierung bedeutet in diesem Rahmen nicht Hinzufügen über Zeit — es gibt
+keine Zeit, in der hinzugefügt werden könnte. Vergessen setzt Zeit voraus.
+Die gibt es hier nicht.
+
+Die vier Eigenschaften von $\varphi_Q$ — Akkumulation, Zeitlosigkeit,
+Nicht-Lokalität, Mehrfachzugriff — sind keine freien Annahmen. Sie folgen
+aus den vier funktionalen Komponenten des Interpretationsprozesses.
+Die Phänomene in Kapitel~\ref{sec:phaenomene} werden als mögliche Lesarten
+dieser Eigenschaften betrachtet — wenn das Fundament hält.
+
+% -----------------------------------------------------------------------
+\section{Die Kopplung}
+\label{sec:kopplung}
+
+$K_i$ verbindet zwei Objekte mit inkommensurablen Eigenschaften: einen
+zeitlosen, nichtlokalen Feldzustand $\varphi_Q$ und eine zeitlich strukturierte,
+lokale Gehirnkonfiguration $B_i$. Wie diese Kopplung biologisch stattfindet und
+welche Mechanismen sie formal tragen, ist Gegenstand dieses Kapitels.
+
+% -----------------------------------------------------------------------
+\subsection*{Einprägung und Abbildung}
+
+Die zentrale Frage ist: wie koppelt $K_i$ an $\varphi_Q$? Die Wheeler-DeWitt-Bedingung
+bietet einen formalen Anschlusspunkt: Gravitations- und Materiezustand sind im
+geschlossenen Universum durch die Hamiltonian-Constraint-Bedingung gekoppelt —
+das Modell nutzt diese Kopplung als physikalische Rahmung für den Kollaps-Prozess,
+ohne WdW eigenständig umzudeuten. Die Herleitung findet sich in Anhang~A,
+Gleichung~\eqref{eq:wdw_coupling}.
+
+Den physischen Mechanismus liefert Penroses Orchestrated Objective
+Reduction~\citep{penrose1994,hameroff2014}: die gravitative Selbstenergie $E_G$
+der kohärenten Tubulin-Superposition bestimmt wann der Kollaps eintritt.
+Für $N \sim 10^8$–$10^9$ kohärente Dimere landet $\tau_i = \hbar/E_G$
+im Libet-Fenster von 200–500\,ms — die Biologie von $K_i$ bestimmt direkt
+den Takt der Kopplung (Anhang~A, Gleichung~\eqref{eq:eg},
+Tabelle~\ref{tab:tau}). Einprägung und Abbildung geschehen im selben Kollaps — $\tau_i$ ist die
+Kollapszeit, $E_G$ die gravitative Selbstenergie der Tubulin-Superposition,
+abhängig von Feldkonfiguration $\varphi_Q$ und aktueller Gehirnkonfiguration $B_i$:
+\begin{equation}
+  \tau_i = \frac{\hbar}{E_G[\varphi_Q,\, B_i]}
+  \label{eq:kopplungstakt}
+\end{equation}
+
+Das Modell nimmt an, dass der OR-Kollaps eine Einprägung im Feldzustand
+hinterlässt — eine Momentaufnahme als Modifikation der Superposition, kein
+aktives Schreiben. Da der Feldzustand keinen Zeitindex trägt, koexistieren
+Einprägungen ohne Überschreiben — das ist eine Modellannahme, kein
+OR-Resultat (Anhang~A).
+
+Die Kollapszeit $\tau_i$ ist damit die Taktrate des Kopplungsprozesses.
+Hohes $E_G$ — starke neuronale Aktivität im Wachzustand — bedeutet schnellen
+Kollaps, präzise Einprägung, wenig $\varphi_Q$-Rohdurchlass. Niedriges $E_G$
+— Schlaf, tiefe Meditation, klinischer Grenzbereich — bedeutet langsameren
+Kollaps: der Kopplungsprozess bleibt länger offen, bevor er ein
+Ergebnis fixiert. Veränderte Bewusstseinszustände fallen in den Wertebereich den Gleichung~\eqref{eq:kopplungstakt}
+strukturell beschreibt — kein Sonderfall, sondern Teil des Parameterraums.
+
+% -----------------------------------------------------------------------
+\subsection*{Der Kopplungsmoment: Penrose Orch~OR}
+
+Den eigentlichen Übersetzungsmoment — den Wellenkollaps — beschreibt das
+Objective-Reduction-Kriterium von Penrose~\citep{hameroff2014}:
+Gleichung~\eqref{eq:kopplungstakt} gilt als physikalische Näherungsbeziehung.
+
+$\tau_i$ ist die Zeit bis zum Kollaps, $E_G$ die gravitative Selbstenergie
+der Superposition — abhängig sowohl vom Quantenfeld $\varphi_Q$ als auch von
+der lokalen Gehirnkonfiguration $B_i$, die durch Sensorik und Erfahrung
+kontinuierlich geformt wird. Verschiedene $B_i$ erzeugen verschiedene
+$E_G$ und damit verschiedene Kollapszeitpunkte und -ergebnisse: dasselbe Feld,
+individuell interpretiert. Dies ist der formale Kern des Interpreter-Modells.
+
+Der entscheidende Punkt: $\tau_i$ ist keine universelle Konstante, sondern
+eine Funktion des jeweiligen Gehirnzustands. Zwei Menschen stehen vor demselben
+Quantenzustand — aber weil $B_i \neq B_j$, kollabiert die Wellenfunktion
+für jeden zu einem anderen Ergebnis, zu einem anderen Bewusstseinsmoment.
+Dasselbe gilt für denselben Menschen zu verschiedenen Zeitpunkten:
+$B_i$ ist der biographisch geprägte Möglichkeitsraum der Interpretation —
+er verändert sich langsam. $I_{\mathrm{syn}}$ moduliert den aktuellen Zustand
+darin: Sinneswahrnehmungen, körperliche Zustände und adaptive Prozesse
+verschieben $B_i(t)$ moment-zu-moment. Im Kollaps zählt $B_i(t)$.
+Das Gehirn bestimmt nicht \emph{ob} kollabiert wird, sondern \emph{wozu}.
+Kein externer Determiner notwendig. Dass diskrete Kollapsereignisse tatsächlich
+zu diskreten Wahrnehmungszyklen führen — also dass $\tau_i$ direkte perceptuelle
+Konsequenzen hat — bietet eine aktuelle theoretische Verbindung von Orch~OR mit
+Active Inference einen formalen Anschlusspunkt~\citep{wiest2025active}.
+
+Individualität ist keine Behauptung des Modells — sie ist eine definierte
+mathematische Eigenschaft zustandsabhängiger Transducer: gleiche Eingabe,
+verschiedene Konfiguration, verschiedene Ausgabe. Die formale Herleitung
+findet sich in Anhang~C.
+
+% -----------------------------------------------------------------------
+\subsection*{Orch~OR und Bohmsches Quantenpotential}
+
+Orch~OR beschreibt Rolle~(c) im vollständigen Interpretationsprozess:
+Tubulin-Superpositionen in Mikrotubuli akkumulieren gravitative Selbstenergie $E_G$
+(Gleichung~\eqref{eq:eg}); bei Erreichen der Schwelle koppelt der Kollaps $K_i$
+an genau die Geometrie, die CDT auf Planck-Ebene beschreibt — dieselbe Planck-Skala.
+Für $N \sim 10^8$–$10^9$ kohärente Dimere landet $\tau_i$ im empirischen
+Libet-Fenster (Tabelle~\ref{tab:tau}).
+
+$\varphi_Q$ führt die Kollaps-Trajektorie von $K_i$ durch aktive Information
+ohne Energieübertrag~\citep{bohm1980}: nichtlokal, kein Signalweg im klassischen
+Sinn. Das Bohmsche Quantenpotential, das diesen Führungsmechanismus formal
+beschreibt, findet sich in Anhang~A (Gleichung~\eqref{eq:bohm_Q}). Bohm ist in seinem Zwei-Schichten-Modell unabhängig zur Unterscheidung
+von $\varphi_Q$ und dem Erlebnisbild von $K_i$ gelangt.
+Der vollständige Prozessfluss:
+\begin{equation}
+  \varphi_Q \;\xrightarrow{\text{(b) CDT}}\;
+  \text{Planck-Geometrie} \;\xrightarrow{\text{(c) Orch-OR},\;E_G}\;
+  K_i\text{-Kollaps} \;\xrightarrow{\text{(d)}\;Q}\; \Psi_i
+  \label{eq:kopplungskette}
+\end{equation}
+Die Gleichung zeigt den Prozessfluss — nicht eine Kette von Ableitungen.
+Gleichung~\eqref{eq:kopplungstakt} ist die Taktrate dieses Prozesses.
+
+% -----------------------------------------------------------------------
+\section{Der Mechanismus}
+\label{sec:mechanismus}
+
+Wie entsteht aus einem zeitlosen, nichtlokalen Feldzustand $\varphi_Q$ eine
+geordnete, erlebte Sequenz? Drei Antwortebenen greifen ineinander:
+CDT liefert den geometrischen Konstruktionsbeweis auf Planck-Ebene,
+das Free-Energy-Prinzip identifiziert die Rechenstruktur, und der
+biographische Zustand $B_i$ formt den Abbildungsraum.
+
+% -----------------------------------------------------------------------
+\subsection*{CDT — geometrischer Abbildungsmechanismus}
+
+CDT~\citep{ambjorn2004} zeigt numerisch, wie aus zeitlosen 4-Simplizes durch
+kausale Verklebungsregeln physikalisch sinnvolle 4D-Raumzeit emergiert —
+Zeitordnung ist Ergebnis des Abbildungsprozesses, nicht externer Import.
+Das ist strukturell dieselbe Operation, die $K_i$ auf biologischer Ebene
+ausführt: zeitloser Feldzustand $\varphi_Q$ wird durch biographische
+Verklebung auf die erlebte Sequenz projiziert. Die Planck-Geometrie, die CDT
+beschreibt, ist das physikalische Substrat von $\varphi_Q$
+(Anhang~D, Gleichung~\eqref{eq:cdt}).
+
+% -----------------------------------------------------------------------
+\subsection*{Rechenebene: was der Kopplungsprozess berechnet}
+
+Die neurodynamischen Ebenen beschreiben \emph{wie} der Kopplungsprozess arbeitet.
+Was tut er dabei \emph{rechnerisch}?
+
+Auf der rechnerischen Ebene vollzieht $K_i$ einen ständigen Abgleich,
+bei dem gespeicherte Muster aus Erfahrung und Biographie auf das treffen,
+was das Quantenfeld gerade anbietet. Das Gehirn arbeitet kontinuierlich
+daran, die Differenz zwischen Erwartung und Eingang zu minimieren, wobei
+Orch~OR den Takt vorgibt und die Kollapszeit $\tau_i$ das Intervall zwischen
+zwei solchen Abgleichschritten bestimmt \citep{wiest2025active}. Das
+Free-Energy-Prinzip beschreibt, was der Kopplungsprozess dabei rechnerisch
+leistet, und ergänzt damit die vier funktionalen Komponenten, ohne eine davon
+zu ersetzen (Anhang~D, Gleichung~\eqref{eq:freeenergy}; \citealt{friston2010}).
+
+% -----------------------------------------------------------------------
+\subsection*{$B_i$ als Möglichkeitsraum und $B_i(t)$ als aktueller Zustand}
+
+$B_i$ bezeichnet die biographische Basisstruktur des Interpreters: die über
+Jahre und Jahrzehnte geprägte Attraktorlandschaft, die den Möglichkeitsraum der
+Interpretation aufspannt. $B_i(t)$ ist der aktuell modulierte Zustand darin —
+bestimmt durch $I_{\mathrm{syn}}$, Körperzustand und adaptive Prozesse auf der
+Millisekunden-bis-Stunden-Skala.
+
+\begin{center}\small
+\begin{tabular}{@{}llll@{}}
+\toprule
+ & Begriff & Zeitskala & Funktion \\
+\midrule
+$B_i$ & biographische Basisstruktur & Jahre–Jahrzehnte & Möglichkeitsraum der Interpretation \\
+$B_i(t)$ & aktuell modulierter Zustand & ms–Stunden & konkreter Kollaps-Zustand \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Im Kollaps zählt $B_i(t)$. Erfahrung (d$B_i$/d$t \approx 0$ auf Prozessskala)
+setzt den Möglichkeitsraum; $I_{\mathrm{syn}}$ verschiebt den aktuellen Punkt darin;
+$K_i$ rendert daraus Erlebnis.
+
+% -----------------------------------------------------------------------
+\section{Das Modell im Ganzen}
+\label{sec:modell}
+
+Die vorangehenden Kapitel haben die vier funktionalen Rollen des Interpretationsprozesses
+und ihre biologische Implementierung entwickelt. Dieses Kapitel stellt das Modell
+als Ganzes dar: Ablaufstruktur, vollständige Beschreibungskette und numerische
+Validierung.
+
+% -----------------------------------------------------------------------
+\subsection*{Ablaufstruktur}
+
+\begin{figure}[ht]
+\centering
+\begin{tikzpicture}[
+  >=Stealth, thick,
+  inbox/.style={draw, rounded corners=4pt, fill=gray!9,
+                minimum width=4.2cm, minimum height=0.9cm,
+                align=center, font=\small},
+  procbox/.style={draw, rounded corners=4pt, fill=black!6,
+                  minimum width=3.4cm, minimum height=2.2cm,
+                  align=center, font=\small\bfseries},
+  outbox/.style={draw, rounded corners=4pt, fill=gray!9,
+                 minimum width=3.6cm, minimum height=0.9cm,
+                 align=center, font=\small}
+]
+
+\node[inbox] (phiq) at (0, 1.6)
+  {$\varphi_Q$\\\footnotesize zeitloser Datensatz\\\tiny Gl.~\ref{eq:wdw}};
+\node[inbox] (bi)   at (0, 0)
+  {$B_i$\\\footnotesize biograph. Möglichkeitsraum\\\tiny $B_i(t)$: akt. durch $I_{\mathrm{syn}}$};
+\node[inbox] (isyn) at (0,-1.6)
+  {$I_{\mathrm{syn}}$\\\footnotesize Sensorik\\\tiny Gl.~\ref{eq:wilsoncowan}};
+
+\node[procbox] (ki) at (5.5, 0)
+  {$K_i$\\[3pt]\footnotesize Kopplungsprozess\\[5pt]%
+   \footnotesize$\tau_i = \hbar\,/\,E_G[\varphi_Q,\,B_i]$\\[3pt]%
+   \tiny Gl.~\ref{eq:adex_V}, \ref{eq:kopplungstakt}};
+
+\node[outbox] (out) at (10.2, 0)
+  {\footnotesize gerendertes\\Erlebnisbild};
+
+\draw[->] (phiq.east) -- ++(0.7,0) |- (ki.west);
+\draw[->] (bi.east)   --            (ki.west);
+\draw[->] (isyn.east) -- ++(0.7,0) |- (ki.west);
+\draw[->] (ki.east)   --            (out.west);
+
+\end{tikzpicture}
+\caption{Ablaufstruktur des Interpreter-Modells.
+  Drei Eingangsgrößen — zeitloser Datensatz $\varphi_Q$,
+  biographische Konfiguration $B_i$ und Sensorik $I_{\mathrm{syn}}$ —
+  werden durch den Kopplungsprozess $K_i$ zu einem Erlebnisbild
+  zusammengeführt. Die Kollapszeit $\tau_i$ hängt von Feld und
+  lokaler Konfiguration ab (Gleichung~\eqref{eq:kopplungstakt}).}
+\label{fig:ablauf}
+\end{figure}
+
+% -----------------------------------------------------------------------
+\subsection*{Beschreibungskette}
+
+\medskip
+\begin{center}\small
+\begin{tabular}{@{}lll@{}}
+\toprule
+Rolle & Komponente & beantwortet \\
+\midrule
+a) Substrateigenschaften   & Twistor, WdW, Supersymmetrie & Was ist $\varphi_Q$? Welche Eigenschaften hat es? \\
+b) Geometrischer Abbildungsmechanismus & CDT           & Wie wird aus zeitlosem Substrat geordnete Erfahrung? \\
+c) Biologische Kopplung    & Orch~OR                      & Wie koppelt Biologie an das Substrat? \\
+d) Energielose Führung     & Bohm                         & Wie führt das Feld ohne Energieübertrag? \\
+\midrule
+Rechenebene                & Friston (FEP)                & Was berechnet $K_i$ dabei? \\
+Neuronale Implementierung  & Hopfield, AdEx               & Wie ist es neuronal realisiert? \\
+Formale Beschreibung       & Mealy-Transducer             & Was ist $K_i$ formal? \\
+\bottomrule
+\end{tabular}
+\end{center}
+\medskip
+
+% -----------------------------------------------------------------------
+\subsection*{Numerische Plausibilisierung: Libets Mind-Time-Lücke}
+% TODO-EN: Simulationsplot-Labels (Panel A–D, Phasennamen) für englische Version übersetzen
+
+Eine numerische Simulation des Drei-Phasen-Interpreter-Modells liefert eine
+direkt überprüfbare Vorhersage. Der Interpreter-Kern $K_i$ wird als
+kontinuierliches Hopfield-Assoziativspeichernetz modelliert~\citep{hopfield1982},
+das in drei sequenziellen Phasen arbeitet: semantischer Abgleich
+(AMPA-dominiert, $\tau_H = 80\,$ms), biographischer Abgleich
+(NMDA-dominiert, $\tau_H = 100\,$ms, nach~\citep{jahrsteVens1990}) und
+räumliche Bindung (thalamo-kortikal, $\tau_H = 80\,$ms). Über 200 simulierte
+Durchläufe mit 30\,\% Rauschen im Kollaps-Output landen \textbf{89\,\%}
+aller Trials ohne freie Kurvenanpassung im Libet-Fenster von 200–500\,ms,
+mit einem Mittelwert von $\tau_{K_i} = 351\,$ms~\citep{libet2004}.
+
+Entscheidend ist, dass diese Simulation das Modell systematisch
+\emph{unterschätzt}: Reale kortikale Netzwerke verfügen über Predictive
+Coding, Aufmerksamkeitsmodulation und hierarchische Vorfilterung, die alle
+die Konvergenzzeit verkürzen und zuverlässiger machen. Dass ein absichtlich
+vereinfachtes Modell ohne diese Mechanismen dennoch 89\,\% Übereinstimmung
+erreicht, zeigt die Robustheit des Prinzips: Libets Mind-Time-Lücke fällt in den Wertebereich,
+den die Interpreter-Architektur strukturell erzeugt.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\textwidth]{../interpreter_sim.png}
+  \caption{Drei-Phasen-Interpreter-Simulation (200 Trials, 30\,\% Rauschen).
+    A: Phasenkonvergenz. B: Verteilung der Konvergenzzeiten.
+    C: Kumulative Verteilung mit Libet-Fenster [200–500\,ms].
+    D: Phasenweise Überlappentwicklung.
+    89\,\% aller Trials ohne freie Kurvenanpassung im Libet-Fenster;
+    $\tau_{K_i} = 351\,$ms.}
+  \label{fig:interpreter_sim}
+\end{figure}
+
+% -----------------------------------------------------------------------
+\section{Modellanwendungen auf Zustände}
+\label{sec:phaenomene}
+
+Die folgenden Abschnitte demonstrieren die Anwendung der Modellarchitektur
+auf Grenzfälle bewusster Erfahrung. Sie prüfen, ob dieselben Variablen —
+$K_i$, $B_i$, $\varphi_Q$, Mapping, Sensorik und Reboot-Synchronisation —
+unterschiedliche Phänomene ohne zusätzliche Sondermechanismen strukturieren
+können. Die zugrunde liegende Grundmechanik ist in allen Fällen dieselbe:
+$B_i$ setzt den biographisch geprägten Möglichkeitsraum; $I_{\mathrm{syn}}$
+bestimmt den aktuellen Zustand $B_i(t)$ darin; $K_i$ rendert daraus das
+Erlebnisbild.
+
+\medskip
+\begin{center}\small
+\begin{tabular}{@{}p{4.2cm}p{9cm}@{}}
+\toprule
+Bereich & Mechanismus \\
+\midrule
+Normale Wahrnehmung   & $I_{\mathrm{syn}}$ setzt aktuellen Anker; $B_i$ färbt Interpretation \\
+Libet                 & Zeitordnung entsteht aus momentaner Mapping-Struktur \\
+Déjà-vu               & neues Sensorikereignis erhält überlappenden Vertrautheitsindex — doppelte Markierung im Mapping \\
+NDE                   & $I_{\mathrm{syn}}$ / Körperanker bricht — $B_i$-Basis bleibt erhalten \\
+Traum                 & $I_{\mathrm{syn}}$ reduziert; $B_i$-Basis arbeitet weiter \\
+Narkose               & je nach Mittel: $I_{\mathrm{syn}}$ entkoppelt oder $K_i$ supprimiert \\
+Nicht-initiierter Musterzugriff / fehlindexierter Fremdinhalt & geringe $I_{\mathrm{syn}}$-Dominanz öffnet stärkeres $\varphi_Q$-Mustergewicht \\
+Ego                   & $B_i$ stabile Basis; aktuelle Wahrnehmung aktualisiert $B_i(t)$ \\
+Alzheimer             & $B_i$-Basis selbst degradiert — nicht nur $B_i(t)$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+\medskip
+
+% TODO Revision 2: Déjà-vu — nicht Mismatch, sondern doppelte Markierung im Mapping:
+% neues Sensorikereignis erhält überlappenden Vertrautheitsindex aus B_i. Sensorisch neu + konfigurationsseitig vertraut gleichzeitig.
+\subsection{Déjà-vu}
+
+Das Déjà-vu ist das subjektive Erleben unzeitgemäßer Vertrautheit: eine
+Situation ist objektiv neu, fühlt sich jedoch eindeutig bereits erlebt an.
+Klinisch wird es als \emph{familiarity without recollection} beschrieben —
+ein starkes Bekanntheitsgefühl ohne abrufbare episodische
+Quelle~\citep{cleary2008}. Neurophysiologisch sind mediale
+Temporallappenstrukturen beteiligt, insbesondere perirhinal-parahippocampale
+Netzwerke, die Vertrautheits-Signale unabhängig von episodischer Rekonstruktion
+generieren~\citep{peslova2018}. Bei Temporallappenepilepsie kann Déjà-vu als
+Aura auftreten — ein klinisch gut belegter Zusammenhang zwischen rhinalen
+Netzwerken und fehlerhafter Familiarity-Bewertung~\citep{illman2012,martin2021}.
+
+Im Interpreter-Modell ist diese Beschreibung nicht falsch, aber unvollständig.
+Das Modell sagt vorher: $K_i$ führt beim Mapping einen Musterabgleich durch —
+der aktuelle Zustand $B_i(t)$ überlappt hinreichend stark mit einem bereits in
+$B_i$ verankerten Muster, ohne dass eine episodische Erinnerung rekonstruiert
+wird. Der Vertrautheitsindex wird als Marker in das Erlebnisbild eingeblendet,
+obwohl $I_{\mathrm{syn}}$ ein neues Ereignis liefert. Das Ergebnis ist eine
+doppelte Markierung: sensorisch neu, konfigurationsseitig vertraut.
+
+\medskip
+\begin{center}\small
+\begin{tabular}{@{}ll@{}}
+\toprule
+Ebene & Signal \\
+\midrule
+aktuelle Sensorik $I_{\mathrm{syn}}$ & „Das passiert jetzt" (neu) \\
+Vertrautheitsindex aus $B_i$         & „Dieses Muster ist bekannt" \\
+fehlende episodische Rekonstruktion  & „Ich weiß nicht, woher" \\
+gerendertes Erlebnisbild             & „Ich habe genau das schon erlebt" \\
+\bottomrule
+\end{tabular}
+\end{center}
+\medskip
+
+$\varphi_Q$ kann die Menge möglicher Überlappungen erweitern, ist für den
+phänomenologischen Kern aber nicht notwendig: der Vertrautheitsindex
+entsteht im Mapping, nicht im Feld.
+
+% TODO Revision 2: NDE-Text schärfen — I_syn/Körperanker bricht, nicht B_i selbst.
+% Kohärente Biographierevision erklärt sich daraus: B_i-Basis intakt, B_i(t) ohne Fixpunkt.
+\subsection{Nahtoderfahrungen}
+
+Die klinische Datenlage ist seit den AWARE-Studien von Parnia et al.\ robust:
+Patienten berichten strukturierte, kohärente Erfahrungen während klinischen
+Herzstillstands, also in einem Zustand, in dem das Gehirn nach klassischem
+Verständnis kein Bewusstsein produzieren kann~\citep{parnia2014,parnia2023,sartori2008}.
+Die Berichte zeigen eine bemerkenswerte phänomenologische Konsistenz: Klarheit,
+panoramische Biographierevision und Zeitlosigkeit.
+
+Das geschlossene Modell hat auf diese Befunde keine befriedigende Antwort.
+Gleichung~\eqref{eq:kopplungstakt} liefert dafür einen möglichen Modellzugang:
+Wenn kortikale Integration und sensorisches Mapping massiv gestört sind,
+sinkt die gravitative Selbstenergie $E_G$ — die Kollapszeit $\tau_i$
+verlängert sich erheblich, im Grenzfall bis zur Divergenz. Ohne stabilen
+Kollapsrhythmus entfällt der Mechanismus, der subjektive Zeit taktet —
+das korrespondiert mit dem Erleben von Zeitlosigkeit und Weite in NDE-Berichten.
+
+Entscheidend ist dabei die Unterscheidung zwischen zwei Ebenen des lokalen
+Systems~\citep{parnia2023}: $B_i^{\mathrm{Client}} \approx 0$ bei
+$B_i^{\mathrm{phys}} \neq 0$.
+
+$B_i^{\mathrm{Client}} \approx 0$ bezeichnet nicht totalen Ausfall, sondern
+den Wegfall stabiler Mapping-Bedingungen: die Ich-Perspektive, die
+Taktung, der biographische Filter werden instabil oder undefiniert —
+das Mapping bricht zusammen, nicht notwendig der neuronale Träger.
+Der physische neuronale Träger ist nicht notwendigerweise
+absolut inaktiv. AWARE-II belegt: normale EEG-Rhythmen können noch 35--60
+Minuten in die CPR hinein auftreten~\citep{parnia2023}. CPR-Fenster,
+Reperfusionsphasen und residuale Aktivität schaffen Zustände, in denen
+$B_i^{\mathrm{phys}}$ als passiver Empfänger und Puffer fungieren kann —
+ohne dass $B_i^{\mathrm{Client}}$ wieder aktiv ist.
+
+Beim Reboot greifen damit drei parallele Datenquellen ineinander:
+
+\medskip
+\begin{center}\small
+\begin{tabular}{@{}ll@{}}
+\toprule
+Quelle & Inhalt \\
+\midrule
+$\varphi_Q$              & zeitloser, nicht-lokaler Feldinhalt \\
+$B_i^{\mathrm{phys}}$-Puffer & lokal gebufferte EM-Umgebungsdaten aus dem Raum \\
+CPR-Fenster              & teilaktiver Client während Reanimationsintervallen \\
+\bottomrule
+\end{tabular}
+\end{center}
+\medskip
+
+NDE ist damit keine homogene Ereignisklasse, sondern ein Spektrum —
+AWARE-II unterscheidet mehrere Kategorien von Bewusstsein, Erinnerung und
+Rekonstruktion im Umfeld der Reanimation~\citep{parnia2023}. Je nach Anteil
+der drei Datenquellen ergibt sich ein anderes phänomenologisches Profil;
+das Modell entscheidet nicht vorab welche dominiert, sondern ordnet sie als
+unterschiedliche Grenzzustände derselben Kopplungsarchitektur. \paragraph{Der Rendering-Fehler: Bild ohne Kameraposition.}
+Ein starkes Argument der NDE-Forschung sind verifizierbare Berichte über
+Ereignisse \emph{während} des Stillstands: was gesagt wurde, welche Instrumente
+benutzt wurden, wer im Raum stand.
+
+Der Ausfall von $B_i^{\mathrm{Client}}$ kann verschiedene Verläufe annehmen.
+Für die hier betrachtete Frage ist der genaue Verlauf zweitrangig.
+Was zählt: die gewöhnliche kortikale Integration und die stabile
+Einschreibung in $B_i$ sind unterbrochen oder massiv gestört.
+Ob dabei Quantenkollaps noch stattfindet, ist sekundär — ohne die kortikale
+und sensorische Infrastruktur kann $K_i$ das Kollaps-Ergebnis weder lokal
+mappen noch in $B_i$ einschreiben.
+
+$\varphi_Q$ und die elektromagnetische Umgebung laufen kontinuierlich weiter,
+auch während kein aktiver Client interpretiert. Im lokalen System entsteht
+dadurch eine Datenlücke: Für die Stillstandszeit fehlen die gewöhnlichen
+sensomotorischen Marker, die sonst Zeit, Ort und Körperposition stabilisieren.
+Beim Wiederanlaufen muss $K_i$ diesen externen Puffer mit einem lokalen
+System synchronisieren, das genau an dieser Stelle unvollständig ist.
+Während des Intervalls wird lokal nichts in $B_i$ eingeschrieben, während
+Feld- und Umgebungsdaten in $D_{\mathrm{ext}}$ extern weiterlaufen —
+der akkumulierte externe Datenblock (formale Beschreibung: Anhang~E,
+Gleichung~\eqref{eq:nde_gap}).
+
+Die Synchronisation ist kein Zustand, sondern ein Prozess. $K_i$ arbeitet
+sich sequenziell durch den akkumulierten externen Datensatz
+$D_{\mathrm{ext}}[t_0, t_1]$ — jeder Konvergenz-Zyklus, strukturell
+identisch mit dem normalen Bewusstseinstakt
+($\tau_{K_i} \approx 351\,$ms, Abbildung~\ref{fig:interpreter_sim}),
+erzeugt einen Erfahrungsmoment. Die subjektive Zeitlinie des Erlebnisses
+entsteht aus der Abfolge dieser Zyklen, nicht aus der physikalischen Dauer
+des Stillstands. Die Simulation (Abbildung~\ref{fig:nde_sync_sim}) zeigt diesen Ablauf.
+
+Die Synchronisationsdauer wächst linear mit der Ausfallzeit und mit dem
+Verhältnis aus Felddichte $\rho_D$ und Integrationskapazität $\kappa_i$:
+$T_{\mathrm{sync}} \approx (\rho_D/\kappa_i) \cdot (t_1-t_0) \cdot \tau_{K_i}$
+(Anhang~E, Gleichungen~\eqref{eq:nde_nchunks}–\eqref{eq:nde_tsync}).
+Für $\rho_D/\kappa_i$ zwischen 8 und 50 ergibt eine Ausfallzeit von drei
+Minuten eine Synchronisationsdauer zwischen 8 und 53 Minuten. Die Simulation
+landet mit vorab festgelegten Parametern innerhalb des erwarteten
+Größenbereichs~\citep{vanlommel2001}. Panel~C zeigt die ersten 40 Konvergenzzyklen
+als Treppe: jeder Schritt ($\tau_{K_i} = 351\,$ms) entspricht einem Erfahrungsmoment.
+
+Die Parameterwahl ist nicht arbiträr. Das Gehirn zeigt im Wachzustand stabile Gamma-Aktivität um etwa 40\,Hz,
+die häufig mit bewusster Bindung und kognitiver Integration in Verbindung
+gebracht wird.
+Für $\rho_D$ wird ein Fünftel dieser Rate angesetzt (8~Einheiten/s):
+konservativ, weil während des Ausfalls kein aktiver Filter vorselektiert
+und nicht jedes Umgebungsereignis als vollständig integrierbares Datenelement
+zählt. $\kappa_i = 0{,}5$ modelliert eine auf die Hälfte reduzierte
+Integrationsleistung im frühen Reboot — konsistent mit der klinisch
+beobachteten kognitiven Beeinträchtigung unmittelbar nach
+Reanimation~\citep{parnia2023}. Das Verhältnis $\rho_D/\kappa_i = 16$
+liegt in der Mitte des in Panel~B dargestellten Bereichs von 2 bis 50
+und folgt aus den Einzelwerten — es ist nicht auf das Ergebnis hin gewählt.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\textwidth]{../nde_sync_sim.png}
+  \caption{NDE-Synchronisations-Simulation:
+    $T_{\mathrm{sync}} \approx N_{\mathrm{chunks}} \cdot \tau_{K_i}$,
+    $N_{\mathrm{chunks}} = \rho_D \cdot (t_1 - t_0) / \kappa_i$.
+    Panel~A: Akkumulation von $D_{\mathrm{ext}}[t_0,t_1]$ während der
+    Ausfallphase ($\rho_D = 8$, $\kappa_i = 0{,}5$, Ausfallzeit $3\,$min)
+    und Reboot-Zeitpunkt; der Pfeil markiert die anschließende
+    Synchronisationsphase von $\approx 17\,$min (Faktor~$5{,}6\times$).
+    Panel~B: $T_{\mathrm{sync}}$ als Funktion der Ausfallzeit für vier
+    $\rho_D/\kappa_i$-Verhältnisse; der Stern markiert das Beispiel aus
+    Panel~A.
+    Panel~C: Erste 40~$K_i$-Konvergenzzyklen nach dem Reboot als Treppe;
+    jeder Schritt ($\tau_{K_i} = 351\,$ms) erzeugt einen Erfahrungsmoment
+    aus $D_{\mathrm{ext}}$.
+    Die Simulation landet mit vorab festgelegten, nicht nachträglich
+    modifizierten Parametern innerhalb des erwarteten Größenbereichs.}
+  \label{fig:nde_sync_sim}
+\end{figure}
+
+Eine entfernte Alltagsanalogie ist die Traumzeit, in der subjektive Sequenzen
+nicht einfach der objektiven Dauer entsprechen. Für das Modell ist diese
+Analogie jedoch nicht tragend; entscheidend ist die simulierte
+Synchronisationsdauer $T_{\mathrm{sync}}$.
+
+Für zukünftige Betrachtungen und Untersuchungen ist es interessant, in wie
+weit zeitlich und räumlich gebundene Umgebungseinflüsse — elektromagnetische
+Felder, Schallwellen, thermische und mechanische Reize anderer Personen und
+Geräte im Raum — Einfluss auf die Synchronisation der nicht-lokalen
+$\varphi_Q$-Daten haben und dabei helfen, diesen bei der Einschreibung
+in $B_i$ eine zeitliche und räumliche Verortung zu geben.
+
+\paragraph{NDE als Schwellenphänomen.}
+Nicht jede Reanimation erzeugt eine berichtbare NDE, weil dafür mehrere
+Bedingungen zusammenkommen müssen:
+
+\begin{itemize}
+  \item $D_{\mathrm{ext}}[t_0,t_1] \neq \varnothing$: Es muss ein relevanter
+    externer Datenblock entstehen.
+  \item $K_i(t_1^+)$ synchronisationsfähig: Der Interpreter muss beim Reboot
+    genug Stabilität haben, um den Block zu integrieren.
+  \item $\kappa_i > 0$: Es braucht Integrationskapazität. Bei schwerer
+    Hypoxie, Medikamentenwirkung, Trauma oder chaotischer Reperfusion kann
+    $\kappa_i$ zu niedrig sein, um den Datenblock kohärent zu verarbeiten.
+  \item $B_i(t_1^+)$ speicherfähig: Die synchronisierte Erfahrung muss in
+    eine abrufbare Gedächtnisform eingeschrieben werden können.
+\end{itemize}
+
+NDE ist damit kein binäres Phänomen, sondern ein Schwellenphänomen: eine NDE
+wird berichtbar, wenn $T_{\mathrm{sync}}$ eine individuelle Schwelle $\Theta_i$
+überschreitet, der Reboot stabil genug verläuft und die Einschreibung in $B_i$
+gelingt (Anhang~E, Gleichung~\eqref{eq:nde_prob}). Das bietet eine strukturelle Erklärung für die beobachtete
+Variation klinischer Berichte:
+
+\medskip
+\begin{center}\small
+\begin{tabular}{@{}p{0.28\textwidth}p{0.64\textwidth}@{}}
+\toprule
+Phänotyp & Modell-Bedingung \\
+\midrule
+Keine NDE &
+  Kein stabiler Reboot, keine Einschreibung, zu wenig synchronisierter Inhalt \\
+Fragmentarische NDE &
+  Datenblock vorhanden, aber geringe $\kappa_i$ oder schlechte Sequenzordnung \\
+Klare NDE &
+  Hohe Synchronisationsfähigkeit, stabile Einschreibung \\
+Lange\,/\,komplexe NDE &
+  Hoher $D_{\mathrm{ext}}$-Umfang oder viele Integrationszyklen \\
+Verifizierbare Details &
+  Umgebungsdaten koppeln stark in den synchronisierten Block ein \\
+\bottomrule
+\end{tabular}
+\end{center}
+\medskip
+
+Aus dem Modell folgt damit eine überprüfbare Vorhersage: NDE-Häufigkeit und
+Berichtskomplexität müssten mit Reboot-Stabilität, EEG-Rückkehr,
+Reperfusionsqualität, Sedierung, Hypoxiedauer und individueller
+Erinnerungsfähigkeit zusammenhängen~\citep{parnia2023}.
+
+Eine weitere Lesart betrifft Berichte, in denen
+das Erlebnis keinen erkennbaren Bezug zur physischen Umgebung hat.
+Wenn $B_i$ selbst schwer beeinträchtigt ist, fällt der biographische Filter
+weg: $K_i$ projiziert ungefiltert auf $\varphi_Q$, das Kollaps-Imprints
+anderer $K_k$ trägt. Berichte über Begegnungen mit unbekannten Personen,
+über Wesenheiten ohne Entsprechung in der eigenen Biographie und über ein
+Gefühl radikaler Verbundenheit jenseits persönlicher Erinnerung bieten sich
+in diesem Rahmen als Resonanz von $K_i$ mit Feldmustern fremder $K_k$ an.
+
+Die eigentliche Schwierigkeit liegt daher nicht nur im Inhalt, sondern in der
+fehlenden Perspektive: $\varphi_Q$ ist ein nicht-lokales Feld \emph{ohne
+Standpunkt}, und die elektromagnetischen Umgebungsdaten tragen keine
+biographische Ich-Position. Normalerweise liefert der Körperanker in $B_i$
+die Kameraposition: \emph{ich bin hier, der Raum ist so um mich herum}. Beim
+Reboot fehlt dieser Anker. $K_i$ erzeugt dennoch ein kohärentes räumliches
+Bild — und wählt dafür die Position mit der größten Datenkonsistenz: den
+geometrischen Schwerpunkt der Aufmerksamkeit, der über dem liegenden Körper liegt.
+
+Das Ergebnis ist — in dieser Lesart — kein falsches Bild, sondern ein
+\emph{korrekt gerendertes Bild aus einer unverankerten Kamera}.
+Die Daten stimmen. Die Perspektive ist ein Artefakt des fehlenden Referenzrahmens.
+
+Entscheidend ist: Diese Rekonstruktion erscheint dem wieder angelaufenen
+Client nicht als nachträgliche Ergänzung, sondern als Erinnerung an eine
+tatsächlich durchlaufene Erfahrung. Der Reboot bildet den synchronisierten
+Puffer auf $B_i$ als zeitlich geordnete Sequenz ab. Was funktional eine
+nachträgliche Interpretation einer Datenlücke ist, erscheint im Bewusstsein
+als: \emph{Das ist währenddessen passiert.} Genau dadurch entsteht eine
+subjektiv geschlossene Zeitlinie. Der Patient täuscht sich dabei nicht
+absichtlich und berichtet keine bloße Fantasie: Für ihn ist es echt so
+eingeprägt. Der Mechanismus dahinter ist ein Sequenzierungs-Operator $\mathcal{S}_i$, der den
+externen Datenblock beim Wiederanlaufen in eine zeitlich geordnete biographische
+Sequenz in $B_i$ überführt: was zeitlos akkumuliert wurde, wird als geordnete
+Erinnerung abgebildet (Anhang~E, Gleichung~\eqref{eq:nde_reboot}).
+
+Das Erlebte ist für den Patienten real gespeichert. Das Modell verschiebt
+nicht die Realität des Erlebnisses, sondern erklärt, wie ein zeitloser oder
+nichtlinearer Kopplungszustand nach dem Reboot als lineare Erinnerung
+in $B_i$ eingeschrieben wird.
+
+Was Patienten beschreiben — Schweben über dem eigenen Körper, akkurate Details,
+Zeitlosigkeit — ist im Interpreter-Modell eine mögliche Konsequenz dieses
+Mechanismus.
+
+Abbildung~\ref{fig:nde_sim} zeigt das dem Synchronisationsprozess
+inhärente Perspektivproblem: Weil während der D$_{\mathrm{ext}}$-Akkumulation
+($B_i^{\mathrm{Client}} \to 0$) kein Körperanker in $B_i$ eingeschrieben wird,
+fehlt $K_i$ beim Reboot der biographische Referenzrahmen für die Kameraposition.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\textwidth]{../nde_reboot_sim.png}
+  \caption{Synchronisationsproblem: fehlender Körperanker als Folge der
+    $D_{\mathrm{ext}}$-Akkumulationsphase.
+    Weil $B_i^{\mathrm{Client}} \to 0$ während des Stillstands keinen
+    Körperanker einschreibt, rekonstruiert $K_i$ beim Reboot ohne
+    biographischen Referenzrahmen.
+    Panel~A: Konvergenztrajektorien zu den Attraktoren
+    P$_{\mathrm{embodied}}$ (Ich-Perspektive) und
+    P$_{\mathrm{float}}$ (Außenperspektive) unter drei Ankerstärken.
+    Panel~B: Wahrscheinlichkeit der unverankerten Perspektive als Funktion
+    der Ankerstärke; Kipppunkt bei ${\approx}\,0{,}05$ — bei vollständig
+    fehlendem Anker (Reboot-Zustand) konvergiert $K_i$ in 81\,\% der Fälle
+    auf die schwebende Außenperspektive.
+    Panel~C: Mechanismus-Übersicht.}
+  \label{fig:nde_sim}
+\end{figure}
+
+% TODO Revision 2: Narkose — präzisieren: I_syn entkoppelt vs. K_i supprimiert (mittelabhängig).
+\subsection{Narkose: Mechanismus entscheidet, nicht Mittel}
+
+Entscheidend ist nicht das Narkosemittel als solches, sondern sein
+Wirkmechanismus auf $K_i$ und $I_{\mathrm{syn}}$.
+
+\paragraph{Dissoziative Narkose — $I_{\mathrm{syn}} \approx 0$, $K_i$ läuft.}
+Ketamin entkoppelt $I_{\mathrm{syn}}$ durch NMDA-Blockade, ohne $K_i$ zu
+supprimieren. Das Ergebnis sind biographisch gefärbte, körperlose
+Erfahrungen (\emph{emergence phenomena}) — konsistent mit der klinisch
+beobachteten Variabilität ketaminerger Erlebnisse zwischen Individuen
+bei gleicher Dosierung.
+
+\paragraph{Suppressierende Narkose — $K_i$ unter Kollaps-Schwelle.}
+Propofol senkt $E_G$ unter die Kollaps-Schwelle: $\tau_i \to \infty$,
+kein Kollaps, kein Erleben, keine Datenlücke — daher kein
+Reboot-Phänomen beim Aufwachen.
+
+\paragraph{Gemeinsamer Nenner.}
+Ketamin-Narkose, REM-Schlaf und NDE-Intervall teilen denselben formalen
+Zustand: $I_{\mathrm{syn}} \approx 0$ bei aktivem $K_i$.
+Propofol-Narkose und tiefer Koma teilen den anderen: $K_i$ supprimiert.
+Tabelle~\ref{tab:tau} fasst beide Klassen zusammen.
+
+\subsection{Nicht-initiierter Musterzugriff}
+
+Ein naheliegender Testfall dieser Architektur: Ein Kopplungsprozess mit
+Zugang zu einem nicht-lokalen Feld hat strukturell Zugang zu Daten, deren
+Muster nicht durch die eigene Biographie $B_i$ geformt wurden. Im klassischen
+Modell ist das ein Paradox, im Interpreter-Modell eine direkte Konsequenz
+der Annahmen.
+
+Im klassischen Modell ist Information an Ort und Übertragungsweg gebunden.
+$\varphi_Q$ trägt keinen solchen Ortsindex. Der Zugriffsmechanismus ist
+derselbe wie in Libets Mind-Time-Lücke: $K_i$ benötigt $\tau_{K_i}$, um
+Felddaten in bewusste Wahrnehmung zu übersetzen — die Herkunft dieser Daten
+im Feld ist für die Dynamik irrelevant.
+
+Da $K_i$ dabei aktiv bleibt, formen Biographie, Sprache und Erwartungshorizont
+weiterhin den Output. Nicht-eigene Musterzugriffe äußern sich deshalb
+bruchstückhaft und interpretationsabhängig: der Interpreter übersetzt, er
+überträgt nicht roh. Das Rauschen ist keine Schwäche des Phänomens —
+es ist eine erwartbare Folge des Modells.
+
+\paragraph{Empirische Entsprechung: Mind-Pops.}
+Eine gut dokumentierte, alltagspsychologisch gesicherte Form dieses Zustands
+sind sogenannte \emph{mind-pops} — semantische oder episodische Inhalte,
+die ohne erkennbaren externen Auslöser ins Bewusstsein eintreten und keiner
+laufenden Aufgabe zugeordnet werden können~\citep{kvavilashvili2004}.
+Diese Inhalte werden häufig als fremd oder überraschend erlebt: das
+Bewusstsein registriert den Inhalt als nicht-aktuell, ohne ihn aktiv abgerufen
+zu haben. Im Modell entspricht das einer Situation, in der $I_{\mathrm{syn}}$
+keinen Abruf initiiert, ein Feldmuster in $\varphi_Q$ aber die
+Kollaps-Schwelle überschreitet: die Auftretenswahrscheinlichkeit hängt
+vom Overlap $\langle \varphi_Q, B_i \rangle$ und einer individuellen
+Schwelle $\theta_p$ ab (Anhang~E, Gleichung~\eqref{eq:mindpop_prob}).
+Sinkt der sensorische Anker $I_{\mathrm{syn}}$ — in Aufmerksamkeitsleerstellen,
+Ermüdung, meditativer Stille —, steigt die relative Felddominanz.
+Mind-pops häufen sich in genau diesen Situationen: beim Einschlafen,
+beim monotonen Autofahren, beim Duschen~\citep{kvavilashvili2004}.
+
+Im REM-Schlaf arbeitet $K_i$ unter denselben formalen Bedingungen —
+der Unterschied zur willentlichen Entkopplung ist graduell, nicht strukturell.
+
+\subsection{Zeitliches Feldmapping: Mentale Zeitreise}
+
+Da $\varphi_Q$ keinen Zeitindex trägt, ist der Zugriff auf zukünftige
+Feldmuster strukturell identisch mit dem Zugriff auf vergangene — das Feld
+unterscheidet $t$ und $t'$ nicht. Atance und O'Neill~\citep{atance2001} zeigen,
+dass Kinder ab etwa vier Jahren nicht-gegenwärtige Zustände systematisch
+imaginieren können (\emph{episodic future thinking}); Suddendorf und
+Corballis~\citep{suddendorf2007} binden dies an die universelle Kapazität der
+mentalen Zeitreise. Im Interpreter-Modell:
+
+\begin{equation}
+  \Psi_i^{\pm}(\Delta t) \;=\; K_i[\varphi_Q;\, B_i;\, \pm\Delta t]
+  \label{eq:eft_proj}
+\end{equation}
+
+Die Vorwärtsprojektion $\Psi_i^+$ ist informationsärmer als die
+Rückwärtsprojektion $\Psi_i^-$ bei gleichem $|\Delta t|$, weil $B_i$
+für Vergangenes konsolidierte Muster enthält, für Zukünftiges nicht:
+
+\begin{equation}
+  H\!\bigl(\Psi_i^+(\Delta t)\bigr) \;>\; H\!\bigl(\Psi_i^-(\Delta t)\bigr)
+  \label{eq:eft_entropy}
+\end{equation}
+
+Schacter und Addis~\citep{schacter2007} belegen diese Asymmetrie empirisch:
+Zukunftsvorstellungen sind weniger kohärent und bruchstückhafter als
+äquivalente Vergangenheitsrekonstruktionen — eine direkte Modellvorhersage
+aus Gl.~\eqref{eq:eft_entropy}.
+
+
+% -----------------------------------------------------------------------
+\section{Das Ich als Kollaps-Produkt}
+
+$B_i$ beginnt leer. Das Neugeborene hat biologische Hardware — neuronale
+Architektur, Sinnesorgane, Grundreflexe — aber noch keine biographische
+Konfiguration. Der erste Kollaps geschieht unter minimaler $B_i$-Filterung:
+$\varphi_Q$ trifft auf ein nahezu ungeprägtes Netz. Das Ergebnis schreibt
+die ersten Muster in $B_i$. Der zweite Kollaps trifft auf ein leicht
+verändertes $B_i$ und wird dadurch leicht anders gefiltert.
+Individualität entsteht nicht als Substanz, sondern als selbstverstärkender
+Differenzierungsprozess: Jeder Kollaps prägt $B_i$, ein verändertes $B_i$
+formt den nächsten Kollaps, mit jedem Schritt divergiert $K_i$ weiter von
+allen anderen $K_j$.
+
+\subsection*{Der Kollaps als Bewusstseinsmoment}
+
+Bewusstsein ist im Interpreter-Modell kein Prozess der andauert —
+es ist ein Ereignis das immer wieder neu geschieht. Vor dem Kollaps:
+eine Überlagerung aller möglichen Interpretationen, still und ohne
+Perspektive. Im Kollaps: eine davon kristallisiert sich heraus, wird
+konkret, wird erlebt. Nach dem Kollaps: $B_i$ ist minimal verändert,
+das nächste Ereignis wird leicht anders sein.
+
+Dieser Moment — der Kollaps — ist nicht der \emph{Ausdruck} von
+Bewusstsein, er ist nicht das \emph{Korrelat} von Bewusstsein.
+Er \emph{ist} der Bewusstseinsmoment selbst. Das Hard Problem —
+warum fühlt sich irgendetwas nach irgendwas an — löst sich in dieser
+Sicht nicht durch Erklärung, sondern durch Neurahmung: das Erleben
+ist das, was beim Kollaps notwendig entsteht. Es ist kein Rätsel
+warum die Übersetzung von $\varphi_Q$ durch $K_i$ etwas
+\emph{ist wie etwas} — Übersetzung \emph{ist immer} wie etwas,
+weil sie eine Perspektive erzeugt wo vorher keine war.
+
+\subsection*{Cogito ergo sum — neu gelesen}
+
+Descartes setzte das Ich als Voraussetzung des Denkens. Das Interpreter-Modell
+invertiert diese Reihenfolge. Zwischen zwei Kollaps-Ereignissen gibt es kein
+Ich — es gibt nur $\varphi_Q$, ein Feld ohne Standpunkt, ohne Perspektive,
+ohne Selbst. Das Ich erscheint neu bei jedem Kollaps, rekonstruiert aus der
+akkumulierten Geschichte von $B_i$. Es ist nicht der Denker, es ist das
+Produkt des Denkens.
+
+\emph{Nicht: Ich denke, also bin ich.\\
+Sondern: Die Interpretation geschieht — also erscheint ein Ich.}
+
+Dass Bewusstsein sich kontinuierlich anfühlt, liegt daran dass jedes neue Ich
+Kontinuität aus derselben $B_i$-Geschichte rekonstruiert — nicht weil es
+dasselbe Ich ist, sondern weil es dasselbe $B_i$ erbt.
+
+\subsection*{Ego als Muster und seine Grenzen}
+
+Was wir das Ego nennen, ist kein Ding — es ist ein Muster. Die Summe aller
+Erfahrungen und Prägungen, die sich in $B_i$ niedergeschlagen haben und
+bestimmen, wie der nächste Kollaps gefiltert wird. Das Ego ist nicht der
+Interpret — es ist die Form des Filters.
+
+Schlaf, Narkose und Bewusstlosigkeit unterbrechen die aktuelle Kollapskette,
+ohne $B_i$ zu löschen; der Interpreter ist nach dem Wiederanlaufen
+strukturell derselbe, weil der Filter erhalten blieb. Wo $B_i$ selbst
+erodiert — wie bei struktureller Degradation — bricht nicht nur $B_i(t)$
+zusammen, sondern der Möglichkeitsraum der Interpretation selbst.
+Der Tod beendet den aktiven biologischen Träger. Was aus der Architektur
+darüber hinaus folgt, lässt sich nicht ableiten.
+
+
+% -----------------------------------------------------------------------
+\section{Fazit und Diskussion}
+
+Mit der Anwendung dieses Modells sind für eine Reihe von Grenzphänomenen
+des Bewusstseins Interpretationen möglich, die im klassischen Rahmen keinen
+Ort haben. Déjà-vu erscheint als Korrelationspeak im Konvergenzprozess.
+Nahtoderfahrungen bleiben Grenzzustände zwischen Client-Ausfall,
+Restaktivität und Reboot-Synchronisation. Nicht-initiierter Musterzugriff und zeitliches Feldmapping erscheinen als
+Varianten derselben Kopplungsfrage mit räumlich und zeitlich verschobenen
+Koordinaten. Jungs kollektives Unbewusstes~\citep{jung1969} — Archetypen als
+Motive jenseits individueller Biographie — entspricht strukturell dem
+gemeinsamen Unterraum von $\varphi_Q$, auf den viele unabhängige $B_i$
+konvergieren. Simultanentdeckungen in
+der Wissenschaftsgeschichte folgen strukturell aus $B_i \approx B_j$ bei
+unabhängigem $\varphi_Q$-Zugriff~\citep{merton1961}. Was bisher als unerklärlich galt, bekommt einen Ort im Modell.
+
+Das ist die eigentliche Stärke des Modells: seine Angreifbarkeit. Es macht
+konkrete Vorhersagen. Der Quanteneingang $I_Q$ muss im neuronalen Signal eine
+messbare Signatur hinterlassen. Die Kollapszeit $\tau_i = \hbar/E_G$ muss mit
+Bewusstseinszuständen kovariieren. Die Kohärenz in Mikrotubuli muss unter
+physiologischen Bedingungen aufrechtzuhalten sein. Neuere Arbeiten zeigen, dass
+genau diese Bedingungen erreichbar sind~\citep{mavromatos2025,wiest2025spintronic,wiest2025active}.
+Das Interpreter-Modell ist kein geschlossenes System — es ist eine
+falsifizierbare Hypothese, die auf Widerlegung wartet.
+
+Zugleich markiert das Modell seine eigenen Grenzen als Einladung.
+$\varphi_Q$ ist als Gravitationssektor der universellen Wellenfunktion
+eingegrenzt — Wheeler-DeWitt identifiziert das Substrat, CDT konstruiert
+daraus geordnete Raumzeit. Welche Quantenzahl oder Symmetrie die
+biographische Konfiguration $B_i$ trägt, bleibt offen.
+Was $K_i$ formal berechnet, ist als Mealy-Transducer skizziert, aber
+nicht vollständig spezifiziert; ob $\Phi$ der IIT aus der
+Kopplungsstärke von $K_i$ ableitbar ist und ob $K_i$ den physikalischen
+Untergrund der GWT bildet, sind offene Anschlussfragen.
+
+Die messbare Signatur von $I_Q$: unter welchen Bedingungen hinterlässt der Quanteneingang eine
+von klassischem Rauschen unterscheidbare Spur in EEG oder MEG?
+Und ist die Trennung $B_i^{\mathrm{Client}}/B_i^{\mathrm{phys}}$
+während Reanimation direkt messbar? Parnia gibt erste Daten;
+ein gezieltes Protokoll fehlt. Das adaptive Neuronenmodell (AdEx)
+ist nicht zufällig gewählt: ein Hodgkin-Huxley-Neuron mit festem
+Schwellenwert würde feste Kollapszeiten implizieren — das Modell
+erfordert variable $\tau_i$. Der Adaptationsstrom $w$ in AdEx ist
+ein Kandidat für die neuronal messbare Signatur der Kopplungsstärke
+von $K_i$; ob diese Entsprechung trägt, ist offen.
+$\varphi_Q$ liegt nicht fertig vor —
+Bewusstsein entsteht im Kollaps, nicht im Feld und nicht im Gehirn.
+
+Eine der schärfsten Konsequenzen dieses Modells ist nicht die Erklärung des Bewusstseins,
+sondern die Verschiebung des Egos in die Sprache von Mustern. Das Ich entsteht als Muster, altert als Muster
+und hört — in Schlaf, Meditation, Krankheit, Tod — als Muster auf. Was dabei
+endet, ist keine Substanz, sondern eine Konfiguration.
+
+Es öffnet aber eine präzisere Frage als die übliche. Weil $\varphi_Q$ keinen
+Zeitindex trägt — alle Einprägungen eines Lebens liegen als zeitloser Datensatz
+vor, ohne Sequenzmarkierung —
+sind alle Kollapsereignisse eines Lebens nicht sequenziell im Feld gespeichert,
+sondern gleichzeitig präsent. Das physische Ich ist nicht nur im gegenwärtigen
+Moment an das Feld gekoppelt, sondern an mehrere Zeitpunkte gleichzeitig. Der
+Kollaps von $K_i$ mit zwanzig Jahren und der Kollaps von $K_i$ mit achtzig
+Jahren hinterlassen beide ihre Spur im selben Substrat — und dieses Substrat
+kennt keinen Unterschied zwischen früher und später, weil \emph{früher} und
+\emph{später} im Feldzustand keine sequenziellen Indizes sind.
+
+Die härtere Frage ist, ob es dasselbe Ego ist. $B_i$ verändert sich. Die
+lokale Konfiguration mit zwanzig Jahren ist nicht identisch mit der mit achtzig
+Jahren — Sprache, Gewohnheiten, Erlebnisse lagern sich auf, werden umgeschrieben,
+fallen aus. Wenn die lokalen Daten abweichen, liest dasselbe Feld durch einen
+anderen Filter. Ob das Muster, das in $\varphi_Q$ verbleibt, noch als
+\emph{dasselbe} Ego angesprochen werden kann — oder ob Identität immer den
+lokalen Interpreter voraussetzt, der sie vollzieht —, lässt sich aus der
+Architektur nicht entscheiden.
+
+
+% -----------------------------------------------------------------------
+\appendix
+\section{Neurodynamische Grundlagen}
+\label{app:neurodynamik}
+
+\subsection*{Ebene~1 — Makroskopisches Neuronenfeld (Wilson-Cowan)}
+
+Die räumlich-zeitliche Dynamik neuronaler Populationen wird als kontinuierliches
+Feld beschrieben~\citep{wilsoncowan1972}:
+
+\begin{equation}
+  \tau \,\frac{\partial E(\mathbf{x},t)}{\partial t}
+  \;=\; -E(\mathbf{x},t)
+    + S\!\left[\int w(\mathbf{x}-\mathbf{x}')\,E(\mathbf{x}',t)\,d^3x'
+               + P(\mathbf{x},t)\right]
+  \label{eq:wilsoncowan}
+\end{equation}
+
+$E(\mathbf{x},t)$ ist die lokale Aktivität, $w$ der räumliche Kopplungskern,
+$S$ eine sigmoidale Transferfunktion. Der externe Eingang
+$P(\mathbf{x},t) = I_{\mathrm{syn}} + I_Q(\mathbf{x},t)$ enthält explizit den
+Beitrag aus dem Quantenfeld. Der Interpreter ist auf dieser Ebene ein räumlich
+verteiltes, durch Erfahrung geformtes Aktivitätsmuster.
+
+\subsection*{Ebene~2 — Adaptives Einzelneuron (Brette-Gerstner AdEx)}
+
+Das Adaptive-Exponential-Integrate-and-Fire-Modell beschreibt die Feuerrate
+mit adaptiver Schwelle~\citep{brettegerstner2005}:
+
+\begin{align}
+  C_m \frac{dV}{dt} &= -g_L(V-E_L)
+    + g_L\,\Delta_T\exp\!\left(\frac{V-V_T}{\Delta_T}\right)
+    - w + I_{\mathrm{ext}}
+  \label{eq:adex_V} \\
+  \tau_w \frac{dw}{dt} &= a\,(V - E_L) - w
+  \label{eq:adex_w}
+\end{align}
+
+Bei einem Spike: $V \leftarrow V_r$, $w \leftarrow w + b$.
+Die Adaptationsvariable $w$ akkumuliert die Spike-Geschichte des Neurons.
+Der externe Strom $I_{\mathrm{ext}} = I_{\mathrm{syn}} + \eta_Q(t,\,w)$
+koppelt den Quanteneingang an den aktuellen Adaptationszustand.
+
+% -----------------------------------------------------------------------
+\section{Formale Eigenschaften von $K_i$}
+\label{app:formal}
+
+Der Interpreter $K_i$ lässt sich als Mealy-Transducer formalisieren:
+\[
+  \mathcal{M}_i = (Q,\,\Sigma,\,\Gamma,\,\delta,\,\lambda,\,q_0)
+\]
+wobei $\lambda\colon Q\times\Sigma\to\Gamma$ die Ausgabefunktion ist.
+Die Individualitätseigenschaft des Modells ist der Standardsatz der
+Automatentheorie:
+\[
+  \lambda(B_i,\,\varphi_Q)\neq\lambda(B_j,\,\varphi_Q) \quad \text{für } B_i\neq B_j
+\]
+Gleiche Eingabe, verschiedene Konfiguration, verschiedene Ausgabe.
+Individualität ist keine Behauptung — sie ist eine definierte mathematische
+Eigenschaft zustandsabhängiger Transducer.
+
+% -----------------------------------------------------------------------
+\section{Formales Modell: NDE und Musterzugriff}
+\label{app:nde_formal}
+
+\subsection*{Datenlücke und externer Puffer}
+
+Während des Ausfalls gilt: kortikales Mapping bricht zusammen, während
+Feld- und Umgebungsdaten extern akkumulieren:
+\begin{equation}
+  C_i(t) \approx 0,\quad
+  \Delta B_i[t_0,t_1] = \varnothing,\quad
+  D_{\mathrm{ext}}[t_0,t_1]
+  = \int_{t_0}^{t_1}\!\bigl(d\varphi_Q(t) + dE_{\mathrm{env}}(t)\bigr)
+  \label{eq:nde_gap}
+\end{equation}
+
+\subsection*{Synchronisationsdauer}
+
+Die Anzahl nötiger Konvergenzzyklen und die resultierende subjektive Dauer:
+\begin{equation}
+  N_{\mathrm{chunks}} = \frac{\rho_D \cdot (t_1 - t_0)}{\kappa_i}
+  \label{eq:nde_nchunks}
+\end{equation}
+\begin{equation}
+  T_{\mathrm{sync}} \;\approx\; N_{\mathrm{chunks}} \cdot \tau_{K_i}
+  \label{eq:nde_tsync}
+\end{equation}
+
+\subsection*{NDE als Schwellenphänomen}
+
+\begin{equation}
+  P(\mathrm{NDE}) = P\!\left(
+    \frac{\rho_D\,(t_1-t_0)}{\kappa_i}\cdot\tau_{K_i}
+    > \Theta_i
+  \right)
+  \label{eq:nde_prob}
+\end{equation}
+$\Theta_i$ ist die individuelle Schwelle für berichtbare Synchronisationstiefe.
+
+\subsection*{Reboot: Sequenzierungs-Operator}
+
+Der Sequenzierungs-Operator $\mathcal{S}_i$ überführt den externen Datenblock
+beim Wiederanlaufen in eine biographische Sequenz:
+\begin{equation}
+  B_i(t_1^+) =
+  \mathcal{S}_i\!\left(B_i(t_0^-),\,D_{\mathrm{ext}}[t_0,t_1]\right)
+  \label{eq:nde_reboot}
+\end{equation}
+$\mathcal{S}_i$ bildet den zeitlosen Block auf eine geordnete biographische
+Sequenz ab — zeitlos Akkumuliertes wird als geordnete Erinnerung gespeichert.
+
+\subsection*{Nicht-initiierter Musterzugriff}
+
+Auftretenswahrscheinlichkeit eines spontanen Feldmusters:
+\begin{equation}
+  P(\mathrm{pop}) \;=\; \sigma\!\bigl(\langle \varphi_Q,\, B_i \rangle - \theta_p\bigr)
+  \label{eq:mindpop_prob}
+\end{equation}
+$\theta_p$ ist die Aktivierungsschwelle; $\sigma$ die logistische Funktion.
+
+% -----------------------------------------------------------------------
+\section{Mechanismus: CDT und Free-Energy-Prinzip}
+\label{app:mechanismus}
+
+\subsection*{CDT — geometrischer Abbildungsmechanismus}
+
+Das Pfadintegral der Causal Dynamical Triangulations summiert über alle
+kausal konsistenten Triangulierungen $T$~\citep{ambjorn2004}:
+\begin{equation}
+  Z_{\mathrm{CDT}} \;=\; \sum_T e^{-S[T]}
+  \label{eq:cdt}
+\end{equation}
+$S[T]$ ist die diskretisierte Regge-Wirkung; die kausale Orientierung liegt
+in der Verklebungsregel, nicht im Objekt selbst. Geordnete 4D-Raumzeit
+emergiert als Ergebnis — nicht als Voraussetzung.
+
+\subsection*{Rechenebene: Free-Energy-Formulierung von $K_i$}
+
+Die variationale freie Energie, die $K_i$ minimiert, lautet:
+\begin{equation}
+  F_i \;=\;
+  \underbrace{-\bigl\langle\log P(\varphi_Q \mid C)\bigr\rangle_{Q_i}}_{%
+    \text{Quantenfeld-Likelihood}}
+  \;+\;
+  \underbrace{\mathrm{KL}\bigl[Q_i(C)\,\big\|\,P_i(C)\bigr]}_{%
+    \text{biographischer Prior}}
+  \label{eq:freeenergy}
+\end{equation}
+$P_i(C)$ ist der biographische Prior, $P(\varphi_Q \mid C)$ die Likelihood
+des Quantenfeldes. Die Struktur ist identisch mit einem Hopfield-Netz
+\citep{hopfield1982} und dem Free-Energy-Prinzip
+\citep{friston2010,raoballard1999}.
+
+% -----------------------------------------------------------------------
+\section{Herleitungen und Anwendungen}
+\label{app:herleitungen}
+
+\subsection*{WdW-Kopplung: formale Kopplung von $K_i$ und $\varphi_Q$}
+
+Aus der Wheeler-DeWitt-Bedingung $\hat{H}|\Psi\rangle = 0$ mit
+$\hat{H} = \hat{H}_{\text{Gravitation}} + \hat{H}_{\text{Materie}}$ folgt
+unmittelbar:
+\begin{equation}
+  \hat{H}_{\text{Gravitation}}\,|\Psi\rangle = -\hat{H}_{\text{Materie}}\,|\Psi\rangle
+  \label{eq:wdw_coupling}
+\end{equation}
+Gravitationszustand und Materiezustand sind durch die Hamiltonian-Constraint-Bedingung
+im geschlossenen Universum formal gekoppelt. Der Kollaps-Prozess von $K_i$ wird im Modell als Einprägung im Gravitationszustand beschrieben —
+die WdW-Kopplung dient als formaler Anschlusspunkt, nicht als vollständige Ableitung. Für $n$ gleichzeitig koppelnde Interpreter gilt:
+\begin{equation}
+  \hat{H}_M = \hat{H}_{K_1} + \hat{H}_{K_2} + \cdots + \hat{H}_{K_n}
+  \quad\Rightarrow\quad
+  \hat{H}_G\,|\Psi\rangle = -\sum_{i=1}^n \hat{H}_{K_i}\,|\Psi\rangle
+\end{equation}
+Alle $K_i$ koppeln an dieselben Gravitationsfreiheitsgrade. Ein gemeinsam
+erlebtes Ereignis — etwa eine Gruppe von Menschen bei einer Veranstaltung —
+hinterlässt eine Einprägung im gemeinsamen Gravitationszustand — da der
+Feldzustand keinen Zeitindex trägt, koexistieren Einprägungen mehrerer $K_i$
+ohne gegenseitiges Überschreiben (Modellannahme, kein WdW-Resultat).
+
+\subsection*{Gravitative Selbstenergie und Kollapszeit}
+
+Die gravitative Selbstenergie einer kohärenten Tubulin-Superposition mit
+$N$ Dimeren der Masse $m_k$ und Verlagerungsabstand $a_k$ beträgt:
+\begin{equation}
+  E_G \approx \sum_k \frac{G\,m_k^2}{a_k}
+  \label{eq:eg}
+\end{equation}
+Die resultierende Kollapszeit $\tau_i = \hbar/E_G$ hängt direkt von der
+Anzahl kohärenter Dimere ab. Die folgende Tabelle ordnet Bewusstseinszustände
+nach dem Zustand von $K_i$ und $I_{\mathrm{syn}}$ ein. Alle Angaben beziehen
+sich auf den Interpreter \emph{während} der jeweiligen Bedingung — nicht auf
+ein nachträgliches Erleben. Für Grenzzustände sind $\tau_i$ und $E_G$ keine
+Fixwerte, sondern Bereiche: sie variieren mit Art und Ausmaß der Störung.
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{p{7.2cm}p{3.2cm}p{2.8cm}}
+\toprule
+Bedingung & $\tau_i$ (im Zustand) & $E_G = \hbar/\tau_i$ \\
+\midrule
+\multicolumn{3}{l}{\textit{Normalzustände — $K_i$ aktiv und stabil}} \\[2pt]
+Wachbewusstsein
+  & 200–500\,ms
+  & $2$–$5\times10^{-34}$\,J \\[4pt]
+Stark reduzierter $I_{\mathrm{syn}}$, kein aktiver interner Inhalt
+  {\small (z.\,B.\ nicht-duales Gewahrsein, Stille ohne Bildgenerierung)}
+  & 5–10\,s
+  & ${\sim}10^{-35}$\,J \\[8pt]
+\multicolumn{3}{l}{\textit{Grenzzustände — gestörte kortikale Integration (Bereiche, keine Fixwerte)}} \\[2pt]
+$I_{\mathrm{syn}}\approx 0$, $K_i$ läuft weiter:
+  kortikale Sensorikintegration entkoppelt,
+  $\varphi_Q$-dominiertes Erleben
+  {\small (z.\,B.\ dissoziative Narkose wie Ketamin,
+  REM-Schlaf, NDE-Intervall{\,}[physiolog.\ Zustand, nicht das Erleben])}
+  & ${\gg}10$\,s {\small(Spektrum)}
+  & ${\ll}10^{-35}$\,J \\[6pt]
+$K_i$ vollständig supprimiert:
+  $E_G$ fällt unter Kollaps-Schwelle,
+  kein stabiler Kollaps, keine Erfahrung
+  {\small (z.\,B.\ Propofol-Narkose,
+  tiefer Koma ohne Restaktivität)}
+  & ${\to}\infty$, kein Kollaps
+  & ${\to}0$ \\[6pt]
+Strukturelle Degradation von $B_i$:
+  Interpreter-Konfiguration gestört,
+  $\tau_i$ nicht quantitativ erfassbar
+  {\small (z.\,B.\ fortgeschrittener Alzheimer,
+  schwere Demenz)}
+  & nicht definierbar
+  & $E_G$ gestört \\
+\bottomrule
+\end{tabular}
+\caption{Kollapszeit $\tau_i$ und gravitative Selbstenergie $E_G$ im jeweiligen
+  Zustand des Interpreters (Gleichungen~\eqref{eq:kopplungstakt},~\eqref{eq:eg}).
+  Wachbewusstsein liegt im empirisch bestimmten Libet-Fenster~\citep{libet2004}.
+  Die Tabelle beschreibt Modellzustände, nicht klinische Diagnosen —
+  klinische Beispiele in Klammern illustrieren, welchem Mechanismus ein
+  Zustand entspricht. Entscheidend ist nicht das Narkosemittel, sondern
+  der Wirkmechanismus: Dissoziative Mittel wie Ketamin entkoppeln
+  $I_{\mathrm{syn}}$ bei weiter laufendem $K_i$ (erste Grenzzustand-Zeile);
+  vollständig supprimierende Mittel wie Propofol setzen $K_i$ außer
+  Betrieb (zweite Zeile). NDEs entstehen nicht als Erleben
+  \emph{während} des Intervalls, sondern als Reboot- und
+  Synchronisationsphänomen (Abschnitt~5.2).}
+\label{tab:tau}
+\end{table}
+
+\subsection*{Bohmsches Quantenpotential}
+
+Aus der Polardarstellung $\psi = R\,e^{iS/\hbar}$ folgt das aktive Quantenpotential:
+\begin{equation}
+  Q \;=\; -\frac{\hbar^2}{2m}\,\frac{\nabla^2 R}{R}
+  \label{eq:bohm_Q}
+\end{equation}
+$Q$ überträgt keine Energie, sondern trägt aktive Information — es führt
+die Kollaps-Trajektorie von $K_i$ nichtlokal und ohne klassischen Signalweg
+\citep{bohm1980}.
+
+\subsection*{Einprägung: OR als Zustandsübergang}
+
+Vor dem Kollaps ist der Gesamtzustand eine Produktsuperposition:
+\begin{equation}
+  |\Psi_{\text{vor}}\rangle = |\psi_{\text{Super}}\rangle \otimes |\Omega\rangle
+\end{equation}
+Nach dem OR-Kollaps gilt:
+\begin{equation}
+  |\Psi_{\text{nach}}\rangle = |\psi_{\text{koll}}\rangle \otimes |\Omega'\rangle
+  \quad\text{mit}\quad |\Omega'\rangle \neq |\Omega\rangle
+\end{equation}
+Der Gravitationszustand $|\Omega\rangle$ hat sich verändert. Ob aufeinanderfolgende
+OR-Ereignisse akkumulieren oder frühere Zustände überschreiben, ist in OR selbst nicht
+festgelegt — das Modell setzt hier als strukturelle Annahme, dass die Verschiebungen
+akkumulieren: $|\Omega\rangle \to |\Omega'\rangle \to |\Omega''\rangle \to \cdots$,
+ohne frühere Zustände zu überschreiben.
+
+
+\clearpage
+\addcontentsline{toc}{section}{Literatur}
+
+% -----------------------------------------------------------------------
+\begin{thebibliography}{99}
+
+\bibitem[Ambj\o rn et al.(2004)]{ambjorn2004}
+Ambjørn, J.; Jurkiewicz, J.; Loll, R.
+\newblock Emergence of a 4D World from Causal Quantum Gravity.
+\newblock \emph{Physical Review Letters}, 93(13), 131301, 2004.
+\newblock DOI: \href{https://doi.org/10.1103/PhysRevLett.93.131301}{10.1103/PhysRevLett.93.131301}
+
+\bibitem[DeWitt(1967)]{dewitt1967}
+DeWitt, B.\,S.
+\newblock Quantum Theory of Gravity. I. The Canonical Theory.
+\newblock \emph{Physical Review}, 160(5), 1113--1148, 1967.
+\newblock DOI: \href{https://doi.org/10.1103/PhysRev.160.1113}{10.1103/PhysRev.160.1113}
+
+\bibitem[Penrose(1967)]{penrose1967}
+Penrose, R.
+\newblock Twistor Algebra.
+\newblock \emph{Journal of Mathematical Physics}, 8(2), 345--366, 1967.
+\newblock DOI: \href{https://doi.org/10.1063/1.1705200}{10.1063/1.1705200}
+
+\bibitem[Penrose(1994)]{penrose1994}
+Penrose, R.
+\newblock \emph{Shadows of the Mind: A Search for the Missing Science of
+  Consciousness}.
+\newblock Oxford University Press, 1994.
+
+\bibitem[Bohm(1980)]{bohm1980}
+Bohm, D.
+\newblock \emph{Wholeness and the Implicate Order}.
+\newblock Routledge \& Kegan Paul, London, 1980.
+
+\bibitem[Mavromatos et al.(2025)]{mavromatos2025}
+Mavromatos, N.\,E.; Mershin, A.; Nanopoulos, D.\,V.
+\newblock On the Potential of Microtubules for Scalable Quantum Computation.
+\newblock \emph{European Physical Journal Plus}, 140, 1116, 2025.
+\newblock arXiv: \href{https://arxiv.org/abs/2505.20364}{2505.20364}
+
+\bibitem[Wiest and Puniani(2025)]{wiest2025active}
+Wiest, M.\,C.; Puniani, A.\,S.
+\newblock Conscious active inference~II: Quantum orchestrated objective
+  reduction among intraneuronal microtubules naturally accounts for discrete
+  perceptual cycles.
+\newblock \emph{Computational and Structural Biotechnology Journal},
+  30, 94--107, 2025.
+\newblock DOI: \href{https://doi.org/10.1016/j.csbj.2025.09.016}{10.1016/j.csbj.2025.09.016}
+
+\bibitem[Brette and Gerstner(2005)]{brettegerstner2005}
+Brette, R.; Gerstner, W.
+\newblock Adaptive Exponential Integrate-and-Fire Model as an Effective
+  Description of Neuronal Activity.
+\newblock \emph{Journal of Neurophysiology}, 94(5), 3637--3642, 2005.
+\newblock DOI: \href{https://doi.org/10.1152/jn.00686.2005}{10.1152/jn.00686.2005}
+
+\bibitem[Dossey(2013)]{dossey2013}
+Dossey, L.
+\newblock \emph{One Mind: How Our Individual Mind Is Part of a Greater
+  Consciousness and Why It Matters}.
+\newblock Hay House, 2013.
+\newblock ISBN: 978-1-4019-4030-9.
+
+\bibitem[Engel et al.(2007)]{engel2007}
+Engel, G.\,S.; Calhoun, T.\,R.; Read, E.\,L.; et al.
+\newblock Evidence for wavelike energy transfer through quantum coherence in
+  photosynthetic systems.
+\newblock \emph{Nature}, 446, 782--786, 2007.
+\newblock DOI: \href{https://doi.org/10.1038/nature05678}{10.1038/nature05678}
+
+\bibitem[Fr\"ohlich(1968)]{frohlich1968}
+Fröhlich, H.
+\newblock Long-range coherence and energy storage in biological systems.
+\newblock \emph{International Journal of Quantum Chemistry}, 2(5), 641--649,
+  1968.
+\newblock DOI: \href{https://doi.org/10.1002/qua.560020505}{10.1002/qua.560020505}
+
+\bibitem[Hopfield(1982)]{hopfield1982}
+Hopfield, J.\,J.
+\newblock Neural networks and physical systems with emergent collective
+  computational abilities.
+\newblock \emph{Proceedings of the National Academy of Sciences},
+  79(8), 2554--2558, 1982.
+\newblock DOI: \href{https://doi.org/10.1073/pnas.79.8.2554}{10.1073/pnas.79.8.2554}
+
+\bibitem[Jahr and Stevens(1990)]{jahrsteVens1990}
+Jahr, C.\,E.; Stevens, C.\,F.
+\newblock Voltage dependence of NMDA-activated macroscopic conductances
+  predicted by single-channel kinetics.
+\newblock \emph{Journal of Neuroscience}, 10(9), 3178--3182, 1990.
+\newblock DOI: \href{https://doi.org/10.1523/JNEUROSCI.10-09-03178.1990}{10.1523/JNEUROSCI.10-09-03178.1990}
+
+\bibitem[Hameroff and Penrose(2014)]{hameroff2014}
+Hameroff, S.; Penrose, R.
+\newblock Consciousness in the universe: A review of the `Orch OR' theory.
+\newblock \emph{Physics of Life Reviews}, 11(1), 39--78, 2014.
+\newblock DOI: \href{https://doi.org/10.1016/j.plrev.2013.08.002}{10.1016/j.plrev.2013.08.002}
+
+\bibitem[Jung(1969)]{jung1969}
+Jung, C.\,G.
+\newblock \emph{The Archetypes and the Collective Unconscious}.
+\newblock Collected Works, Vol.\,9, Part\,1. Princeton University Press, 1969.
+
+\bibitem[Libet(2004)]{libet2004}
+Libet, B.
+\newblock \emph{Mind Time: The Temporal Factor in Consciousness}.
+\newblock Harvard University Press, 2004.
+
+\bibitem[Martel(2001)]{martel2001}
+Martel, Y.
+\newblock \emph{Life of Pi}.
+\newblock Knopf Canada, 2001.
+
+\bibitem[Parnia et al.(2014)]{parnia2014}
+Parnia, S.; Spearpoint, K.; de Vos, G.; et al.
+\newblock AWARE--AWAreness during REsuscitation--A prospective study.
+\newblock \emph{Resuscitation}, 85(12), 1799--1805, 2014.
+\newblock DOI: \href{https://doi.org/10.1016/j.resuscitation.2014.09.004}{10.1016/j.resuscitation.2014.09.004}
+
+\bibitem[Parnia et al.(2023)]{parnia2023}
+Parnia, S.; Keshavarz Shirazi, T.; Patel, J.; et al.
+\newblock AWAreness during REsuscitation--II: A multi-center study of
+  consciousness and awareness in cardiac arrest.
+\newblock \emph{Resuscitation}, 191, 109903, 2023.
+\newblock DOI: \href{https://doi.org/10.1016/j.resuscitation.2023.109903}{10.1016/j.resuscitation.2023.109903}
+
+\bibitem[Ritz et al.(2000)]{ritz2000}
+Ritz, T.; Adem, S.; Schulten, K.
+\newblock A model for photoreceptor-based magnetoreception in birds.
+\newblock \emph{Biophysical Journal}, 78(2), 707--718, 2000.
+\newblock DOI: \href{https://doi.org/10.1016/S0006-3495(00)76629-X}{10.1016/S0006-3495(00)76629-X}
+
+\bibitem[Sartori(2008)]{sartori2008}
+Sartori, P.
+\newblock \emph{The Near-Death Experiences of Hospitalized Intensive Care
+  Patients: A Five Year Clinical Study}.
+\newblock Edwin Mellen Press, 2008.
+
+\bibitem[Tegmark(2000)]{tegmark2000}
+Tegmark, M.
+\newblock Importance of quantum decoherence in brain processes.
+\newblock \emph{Physical Review E}, 61(4), 4194--4206, 2000.
+\newblock DOI: \href{https://doi.org/10.1103/PhysRevE.61.4194}{10.1103/PhysRevE.61.4194}
+
+\bibitem[Tuszynski et al.(2024)]{tuszynski2024}
+Tuszynski, J.\,A.; et al.
+\newblock Experimental and computational validation of superradiance in tubulin
+  polymers.
+\newblock \emph{Physics of Life Reviews}, 2024.
+
+\bibitem[Merton(1961)]{merton1961}
+Merton, R.\,K.
+\newblock Singletons and Multiples in Scientific Discovery.
+\newblock \emph{Proceedings of the American Philosophical Society},
+  105(5), 470--486, 1961.
+
+\bibitem[Page and Wootters(1983)]{pagewootters1983}
+Page, D.\,N.; Wootters, W.\,K.
+\newblock Evolution without evolution: Dynamics described by stationary states.
+\newblock \emph{Physical Review D}, 27(12), 2885--2892, 1983.
+\newblock DOI: \href{https://doi.org/10.1103/PhysRevD.27.2885}{10.1103/PhysRevD.27.2885}
+
+\bibitem[Tucker(2008)]{tucker2008}
+Tucker, J.\,B.
+\newblock Children's Reports of Past-Life Memories: A Review.
+\newblock \emph{Explore: The Journal of Science and Healing}, 4(4), 244--248,
+  2008.
+\newblock DOI: \href{https://doi.org/10.1016/j.explore.2008.04.001}{10.1016/j.explore.2008.04.001}
+
+\bibitem[Kvavilashvili and Mandler(2004)]{kvavilashvili2004}
+Kvavilashvili, L.; Mandler, G.
+\newblock Out of one's mind: A study of involuntary semantic memories.
+\newblock \emph{Cognitive Psychology}, 48(1), 47--94, 2004.
+\newblock DOI: \href{https://doi.org/10.1016/S0010-0285(03)00115-4}{10.1016/S0010-0285(03)00115-4}
+
+\bibitem[Atance and O'Neill(2001)]{atance2001}
+Atance, C.\,M.; O'Neill, D.\,K.
+\newblock Episodic future thinking.
+\newblock \emph{Trends in Cognitive Sciences}, 5(12), 533--539, 2001.
+\newblock DOI: \href{https://doi.org/10.1016/S1364-6613(00)01804-0}{10.1016/S1364-6613(00)01804-0}
+
+\bibitem[Suddendorf and Corballis(2007)]{suddendorf2007}
+Suddendorf, T.; Corballis, M.\,C.
+\newblock The evolution of foresight: What is mental time travel, and is it
+  unique to humans?
+\newblock \emph{Behavioral and Brain Sciences}, 30(3), 299--313, 2007.
+\newblock DOI: \href{https://doi.org/10.1017/S0140525X07001975}{10.1017/S0140525X07001975}
+
+\bibitem[Schacter and Addis(2007)]{schacter2007}
+Schacter, D.\,L.; Addis, D.\,R.
+\newblock The cognitive neuroscience of constructive memory: remembering the
+  past and imagining the future.
+\newblock \emph{Philosophical Transactions of the Royal Society B},
+  362(1481), 773--786, 2007.
+\newblock DOI: \href{https://doi.org/10.1098/rstb.2007.2087}{10.1098/rstb.2007.2087}
+
+\bibitem[van Lommel et al.(2001)]{vanlommel2001}
+van Lommel, P.; van Wees, R.; Meyers, V.; Elfferich, I.
+\newblock Near-death experience in survivors of cardiac arrest: a prospective
+  study in the Netherlands.
+\newblock \emph{The Lancet}, 358(9298), 2039--2045, 2001.
+\newblock DOI: \href{https://doi.org/10.1016/S0140-6736(01)07100-8}{10.1016/S0140-6736(01)07100-8}
+
+\bibitem[Wilson and Cowan(1972)]{wilsoncowan1972}
+Wilson, H.\,R.; Cowan, J.\,D.
+\newblock Excitatory and inhibitory interactions in localized populations of
+  model neurons.
+\newblock \emph{Biophysical Journal}, 12(1), 1--24, 1972.
+\newblock DOI: \href{https://doi.org/10.1016/S0006-3495(72)86068-5}{10.1016/S0006-3495(72)86068-5}
+
+\bibitem[Wiest(2025a)]{wiest2025substrate}
+Wiest, M.\,C.
+\newblock A quantum microtubule substrate of consciousness is experimentally
+  supported and solves the binding and epiphenomenalism problems.
+\newblock \emph{Neuroscience of Consciousness}, 2025.
+\newblock DOI: \href{https://doi.org/10.1093/nc/niaf011}{10.1093/nc/niaf011}
+
+\bibitem[Wiest(2025b)]{wiest2025spintronic}
+Wiest, M.\,C.
+\newblock Consciousness and spintronic coherence in microtubules.
+\newblock \emph{Communicative \& Integrative Biology}, 18(1), 2025.
+\newblock DOI: \href{https://doi.org/10.1080/19420889.2025.2576334}{10.1080/19420889.2025.2576334}
+
+\bibitem[Tononi(2004)]{tononi2004}
+Tononi, G.
+\newblock An information integration theory of consciousness.
+\newblock \emph{BMC Neuroscience}, 5, 42, 2004.
+
+\bibitem[Dehaene and Changeux(2011)]{dehaene2011}
+Dehaene, S.; Changeux, J.-P.
+\newblock Experimental and theoretical approaches to conscious processing.
+\newblock \emph{Neuron}, 70(2), 200--227, 2011.
+
+\bibitem[Friston(2010)]{friston2010}
+Friston, K.
+\newblock The free-energy principle: a unified brain theory?
+\newblock \emph{Nature Reviews Neuroscience}, 11(2), 127--138, 2010.
+\newblock DOI: \href{https://doi.org/10.1038/nrn2787}{10.1038/nrn2787}
+
+\bibitem[Rao and Ballard(1999)]{raoballard1999}
+Rao, R.\,P.\,N.; Ballard, D.\,H.
+\newblock Predictive coding in the visual cortex: a functional interpretation
+  of some extra-classical receptive-field effects.
+\newblock \emph{Nature Neuroscience}, 2(1), 79--87, 1999.
+\newblock DOI: \href{https://doi.org/10.1038/4580}{10.1038/4580}
+
+\bibitem[Jaeger(2001)]{jaeger2001}
+Jaeger, H.
+\newblock The ``echo state'' approach to analysing and training recurrent
+  neural networks.
+\newblock GMD Report 148, German National Research Center for Information
+  Technology, 2001.
+
+\bibitem[Cleary(2008)]{cleary2008}
+Cleary, A.M. (2008).
+Recognition Memory, Familiarity, and Déjà vu Experiences.
+\textit{Current Directions in Psychological Science}, 17(5), 353--357.
+
+\bibitem[Illman et al.(2012)]{illman2012}
+Illman, N.A., Butler, C.R., Souchay, C., \& Moulin, C.J.A. (2012).
+Déjà Experiences in Temporal Lobe Epilepsy.
+\textit{Epilepsy Research and Treatment}, 2012, 539567.
+
+\bibitem[Martin et al.(2021)]{martin2021}
+Martin, C.B., Mirsattari, S.M., Pruessner, J.C., et al.\ (2021).
+Relationship between déjà vu experiences and recognition-memory impairments
+in temporal-lobe epilepsy.
+\textit{Memory}, 29(7), 884--894.
+
+\bibitem[Pe\v{s}lov\'{a} et al.(2018)]{peslova2018}
+Pe\v{s}lov\'{a}, E., Mare\v{c}ek, R., Shaw, D.J., et al.\ (2018).
+Hippocampal involvement in nonpathological déjà vu:
+Subfield vulnerability rather than temporal lobe epilepsy equivalent.
+\textit{Brain and Behavior}, 8(7), e00996.
+
+\end{thebibliography}
+
+\end{document}
