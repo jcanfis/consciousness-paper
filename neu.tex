@@ -483,7 +483,32 @@ Gleichung~\eqref{eq:kopplungstakt} ist die Taktrate dieses Prozesses.
 \label{sec:mechanismus}
 
 Wie entsteht aus einem zeitlosen, nichtlokalen Feldzustand $\varphi_Q$ eine
-geordnete, erlebte Sequenz? Drei Antwortebenen greifen ineinander:
+geordnete, erlebte Sequenz? Die Modelle in Kapitel~\ref{sec:kopplung} und
+diesem Kapitel konkurrieren dabei nicht — sie beschreiben denselben Prozess
+auf verschiedenen Ebenen der Analyse. David Marr~\citep{marr1982} hat gezeigt,
+dass jedes informationsverarbeitende System auf drei voneinander unabhängigen
+Ebenen beschrieben werden kann: auf der Ebene dessen, was das System tut und
+wozu; auf der Ebene dessen, wie es das tut und welche Darstellung es dabei
+verwendet; und auf der Ebene der physischen Realisierung. Eine Erklärung auf
+einer Ebene ersetzt die anderen nicht — sie beantwortet eine andere Frage.
+
+\medskip
+\begin{center}\small
+\begin{tabular}{@{}p{3.2cm}p{4.8cm}p{5.2cm}@{}}
+\toprule
+Marr-Ebene & Frage & Modell im Interpreter \\
+\midrule
+Computational   & Was berechnet $K_i$? Wozu?      & Free-Energy-Prinzip (Friston) \\
+Algorithmisch   & Wie? Welche Darstellung?         & Mealy-Transducer, CDT, Bohm \\
+Implementierung & Wie physisch realisiert?         & Orch~OR, AdEx, Wilson-Cowan \\
+\bottomrule
+\end{tabular}
+\end{center}
+\medskip
+
+Orch~OR erklärt nicht, was $K_i$ rechnerisch leistet. Das Free-Energy-Prinzip
+erklärt nicht, wie der Kollaps physisch stattfindet. Erst zusammen ergibt
+sich ein vollständiges Bild des Interpretationsprozesses.
 CDT liefert den geometrischen Konstruktionsbeweis auf Planck-Ebene,
 das Free-Energy-Prinzip identifiziert die Rechenstruktur, und der
 biographische Zustand $B_i$ formt den Abbildungsraum.
@@ -1505,6 +1530,11 @@ ohne frühere Zustände zu überschreiben.
 
 % -----------------------------------------------------------------------
 \begin{thebibliography}{99}
+
+\bibitem[Marr(1982)]{marr1982}
+Marr, D.
+\newblock \emph{Vision: A Computational Investigation into the Human Representation and Processing of Visual Information}.
+\newblock W.\,H.\ Freeman, San Francisco, 1982.
 
 \bibitem[Ambj\o rn et al.(2004)]{ambjorn2004}
 Ambjørn, J.; Jurkiewicz, J.; Loll, R.
