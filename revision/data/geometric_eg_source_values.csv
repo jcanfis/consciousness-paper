@@ -1,0 +1,18 @@
+parameter,value,provenance
+PDB structure,1JFF,RCSB PDB; doi:10.1006/jmbi.2001.5077
+PDB SHA-256,8fcc2ee63f39ee86e7854128e9b2251bedc78e4cc552ab6ac6180c3a0b9e6798,Downloaded coordinate-file checksum
+modeled heavy atoms,6578,ATOM records in chains A/B
+modeled residues,838,Residues represented in chains A/B
+deposited residues,896,RCSB 1JFF entry
+completeness scale,1.0692124105011933,896 / modeled residues
+dimer mass kDa,101.93,RCSB 1JFF structure weight
+protofilaments,13,Fourniol et al. 2010; doi:10.1083/jcb.201007081
+centre radius nm,10.5,Cylindrical domain-model input
+axial dimer spacing nm,8.0,Fourniol et al. 2010; doi:10.1083/jcb.201007081
+maximum axial layers,262144,numerical lattice-tail control
+maximum dimers,3407872,13 protofilaments times maximum axial layers
+carbon profile radius fm,2.5,Hameroff-Penrose model input
+modeled C nuclei,4148,1JFF ATOM records
+modeled N nuclei,1126,1JFF ATOM records
+modeled O nuclei,1259,1JFF ATOM records
+modeled S nuclei,45,1JFF ATOM records

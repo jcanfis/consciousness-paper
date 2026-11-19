@@ -1,0 +1,7 @@
+study,condition,temperature_metric,delta_temperature_c,rt_change_pct,rt_ci_low_pct,rt_ci_high_pct,p300_latency_change_pct,p300_latency_ci_low_pct,p300_latency_ci_high_pct,accuracy_change_pct,p300_amplitude_change_pct,p300_amplitude_ci_low_pct,p300_amplitude_ci_high_pct,timing_role,integrity_role
+Tan 2024,congruent,brain temperature (1H-MRS),0.9,-15.903614457831328,,,,,,-1.4388489208633004,,,,within-session change; not heat-specific,overall passive-heating accuracy loss p=0.017
+Tan 2024,incongruent,brain temperature (1H-MRS),0.9,-15.140845070422538,,,,,,-2.2587268993839893,,,,within-session change; not heat-specific,overall passive-heating accuracy loss p=0.017
+Nakata 2021,congruent,ear-canal temperature,1.2504221047794095,-8.905228758169937,-11.334641259646125,-6.428555220256271,-9.025211464235849,-13.08055605235296,-4.711036625854336,,-15.784476619985755,-24.054368554688203,-5.804533857728954,,
+Nakata 2021,incongruent,ear-canal temperature,1.2504221047794095,-9.164568911264947,-11.208186652183283,-7.096435035545945,-7.287680156339061,-10.412086156470139,-4.3361266968004175,,-20.983522142121526,-31.295085554176726,-10.499004336269168,,
+Shibasaki 2016,severe heat vs time control,esophageal temperature,2.0,,,,-3.1358885017421567,,,,-31.967213114754088,,,time-controlled thermal comparison,heat baseline to severe heat; p<0.01
+Shibasaki 2016,short cooling vs time control,esophageal temperature,,,,,-8.064516129032262,,,,,,,time-controlled persistence after heat,

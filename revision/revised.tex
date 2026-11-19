@@ -1,0 +1,106 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{geometry}
+\usepackage{csquotes}
+\usepackage[authoryear,round]{natbib}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{pdflscape}
+\usepackage{tikz}
+\usetikzlibrary{positioning,arrows.meta}
+\usepackage{setspace}
+\doublespacing
+
+\geometry{left=30mm,right=30mm,top=30mm,bottom=30mm}
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=blue
+}
+\setlist[itemize]{topsep=4pt,itemsep=2pt}
+\setlist[enumerate]{topsep=4pt,itemsep=2pt}
+
+% M&M: tables are numbered with consecutive Roman numerals
+\renewcommand{\thetable}{\Roman{table}}
+
+\title{\textbf{Consciousness as Interpretation}\\
+\large A Coupling Model of Consciousness}
+\author{Babylon Project}
+\date{}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+% -----------------------------------------------------------------------
+% Abstract
+% -----------------------------------------------------------------------
+\begin{center}
+\textbf{Abstract}
+\end{center}
+\noindent
+Since Descartes wrote \emph{cogito, ergo sum}, accounts of consciousness can
+broadly be divided into two positions. Either the body produces conscious
+experience, or it receives conscious experience from outside. This paper will
+examine the gaps both positions leave and ask if a new approach is able to
+eliminate them. In addition to that, the paper will take a closer look at the
+two opposing components and their interaction. I will establish a process
+between the body and a specified ``outside''. For this I use a timeless relational field instead of
+an electromagnetic field. The result will be a model in
+which consciousness is a personalized data mapping. The model draws on recent
+work in physics and biology. I provide a variety of derivations and simulations to make it more accessible.
+These I also use to test its coherence against known medical cases.
+
+\bigskip
+\noindent\rule{\linewidth}{0.4pt}
+\bigskip
+
+\newpage
+
+% -----------------------------------------------------------------------
+\input{body_revised}
+
+\appendix
+\input{appendices_revised}
+
+% -----------------------------------------------------------------------
+% AI-use disclosure. Stand 19.11.2026 (Zenodo-Fassung): heavily AI-assisted.
+% Introduction and Sections 2-3 were revised by the author by hand; the wording
+% from Section 4 onwards and of the appendices was formulated with AI assistance.
+% -----------------------------------------------------------------------
+\section*{Use of AI-Assisted Tools}
+\noindent This work was heavily AI-assisted. The idea, the model and its central
+hypotheses, the way its parts are put together, the line of argument, and all
+conclusions are the author's own. The Introduction and
+Sections~\ref{sec:existing_models} and~\ref{sec:local_client} were revised by the
+author by hand. AI assistance was used for the wording of the text from
+Section~\ref{sec:server} onwards and of the appendices, and for typesetting,
+simulation, and checking (sources and mathematics). It did not originate the ideas or
+the scientific insight.
+
+\bibliographystyle{apalike}
+\begingroup
+\small
+\singlespacing
+\sloppy
+\setlength{\emergencystretch}{4em}
+\setlength{\bibsep}{3pt plus 0.5pt minus 0.5pt}
+\setlength{\bibhang}{1.25em}
+\bibliography{references}
+\endgroup
+% M&M: citations by author and year, references listed alphabetically; apalike approximates this.
+
+\end{document}

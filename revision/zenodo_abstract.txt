@@ -1,0 +1,13 @@
+Consciousness as Interpretation: A Coupling Model of Consciousness
+
+Abstract
+
+Since Descartes wrote cogito, ergo sum, accounts of consciousness can broadly be divided into two positions. Either the body produces conscious experience, or it receives conscious experience from outside. This paper examines the gaps both positions leave and asks if a new approach is able to eliminate them.
+
+The first step is the body. It brings its hardware, its life history, and its present state. The second step is the "outside". For this I use a timeless relational field instead of an electromagnetic field. It acts like a data server. It holds relations, but it has no viewpoint of its own. The third step is the process that connects the two. Here the paper draws on recent work in physics and biology.
+
+The result is a model in which consciousness is a personalized data mapping. Neither the body nor the field is conscious alone. The conscious image forms where both meet.
+
+I provide a variety of derivations and simulations to make the model more accessible. At the end the model is applied to known medical cases. These are the timing of conscious perception, anaesthesia, heat, neurological disorders, and the recovery after an interruption. For each case the paper names what can be measured to test the model.
+
+Note: This work was heavily AI-assisted. The idea, the composition of the model, and the line of argument are the author's own.
