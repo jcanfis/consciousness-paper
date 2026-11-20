@@ -8,7 +8,7 @@ A paper on consciousness. It proposes a coupling model in which conscious experi
 
 For physicists it may be of interest as a use case: the mapping it describes runs from quantum physics onto gravitational physics, in one locally bounded special case. It is not a theory of quantum gravity and does not claim to be one.
 
-The two usual objections are addressed. No homunculus is needed, because the observer is formed in the mapping event and has no work left to do. Warm, wet coherence is not assumed against the evidence; it rests on measured results (Babcock et al. 2024, Kalra et al. 2023, and the sources in Appendix B).
+The two usual objections are addressed. No homunculus is needed, because the observer is formed in the mapping event and has no work left to do. Warm, wet coherence is not assumed against the evidence; it rests on measured results, including spin echo inside living cells with a coherence time near 1 µs (Ishiwata et al. 2026), superradiance in tubulin assemblies (Babcock et al. 2024), energy migration in microtubules (Kalra et al. 2023), and the sources in Appendix B. A claim graph with an objection index is in [CLAIMS.md](CLAIMS.md).
 
 ## The model in one paragraph
 
