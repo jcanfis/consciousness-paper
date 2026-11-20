@@ -8,6 +8,8 @@ A paper on consciousness. It proposes a coupling model in which conscious experi
 
 For physicists it may be of interest as a use case: the mapping it describes runs from quantum physics onto gravitational physics, in one locally bounded special case. It is not a theory of quantum gravity and does not claim to be one.
 
+The two usual objections are addressed. No homunculus is needed, because the observer is formed in the mapping event and has no work left to do. Warm, wet coherence is not assumed against the evidence; it rests on measured results (Babcock et al. 2024, Kalra et al. 2023, and the sources in Appendix B).
+
 ## The model in one paragraph
 
 Three parts meet. The local client is the organism: its hardware, its life history (`B_i`) and its present state. The server is a timeless relational field. It holds relations but has no viewpoint of its own. The mapping event `K_i` connects the two. It compares the inputs, assigns source and perspective, and forms the branches that are available to this biological system. One branch becomes real through objective reduction in the microtubule carrier, and the result is written back into the client's history. The lived image `Psi_i` is formed in that meeting. Neither the body nor the field is conscious alone.
