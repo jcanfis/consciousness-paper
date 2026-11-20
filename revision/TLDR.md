@@ -4,8 +4,9 @@ Paper: `revised.pdf` in this folder. Record: https://doi.org/10.5281/zenodo.2435
 
 ## What it is
 
-A mapping from quantum physics onto gravitational physics, worked out for one locally bounded special case: consciousness.
-It is not a general theory of quantum gravity and does not claim to be one. It is evidenced only for this special case, which can be tested medically and physically.
+A paper on consciousness. It proposes a coupling model in which conscious experience forms where the body meets a timeless relational field, and it applies the model to known medical cases.
+
+For physicists it may be of interest as a use case: the mapping it describes runs from quantum physics onto gravitational physics, in one locally bounded special case. It is not a theory of quantum gravity and does not claim to be one.
 
 ## The model in one paragraph
 
@@ -39,4 +40,4 @@ The exact form of the weighting function `W_i` is not yet fixed, only the direct
 
 ## How to read it
 
-The chapters are written to guide a non-specialist reader step by step. The hard core sits underneath and shows itself when the parts are put together.
+The chapters are written to guide a non-specialist reader step by step. Derivations, simulations and data are in the appendices and in `simulations/` and `data/`.
