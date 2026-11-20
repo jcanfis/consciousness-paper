@@ -21,6 +21,22 @@ Core equation (Section "The Complete Interpreter Model"):
 
 The gravitational self-energy `E_G` is calculated directly from the atomic coordinates of the tubulin dimer, without calibrating it to any collapse time. It grows almost linearly with the number of recruited dimers, so no hidden N^2 amplification is needed. For event intervals of 25 to 500 ms the carrier population lies between about 10^9 and 10^12 dimers.
 
+## From the timeless state to ordinary spacetime
+
+The server side starts from the Wheeler-DeWitt constraint `H|Phi> = 0`, which has no time parameter. Relations are read from it as correlation strengths at a local address, and nothing on the server evolves.
+
+The link to the spacetime of general relativity runs through causal dynamical triangulations. Only an effective, coarse-grained Lorentzian metric is taken from the CDT ensemble. On that local patch the client's worldline gives its proper time `u_i` and a spatial rest slice. On this slice the Green kernel reduces to the Newtonian `1/|x-y|` in the local flat limit, and Penrose's gravitational self-energy `E_G` is evaluated there. Twistor incidence is used only as a local address in the flat tangent space, not as a global construction.
+
+In short, the timeless relational state is coupled to ordinary, locally Einsteinian spacetime at one place: the mass-density difference of the carrier branches on the client's own rest slice.
+
+## Appendices in brief
+
+- **A. Notation and Definitions:** all symbols in one table.
+- **B. Neurodynamic and Biological Implementation:** the measured carrier constraints with their sources (Froehlich condensation, warm biological coherence, superradiance, anaesthetic effects on microtubules, epothilone B), plus a Wilson-Cowan population field and an adaptive integrate-and-fire neuron that set the local trigger.
+- **C. Quantum-Gravitational Coupling and Derivations:** the chain from the Wheeler-DeWitt state through CDT and the local time vector to the twistor address. It also covers the weighting of relations, which is bounded by monotonicity constraints only, and a consistency lemma. That lemma shows the weighting is a completely positive instrument: outcome probabilities stay ordinary Born probabilities and no signalling between clients is possible. A Bohmian quantum potential carries form before reduction only. Froehlich-type recruitment sets which carrier domains join. The geometric `E_G` is computed from the 1JFF tubulin structure, and the deviation from linear scaling stays below 7.6e-15 up to about 3.4 million dimers. Reduction depends on accumulated recruitment, not on an instantaneous count.
+- **D. Model Tests and Numerical Results:** a finite associative load of about 0.14 patterns per unit (Hopfield limit), a relational-convergence benchmark built from published recall data with a preregistered protocol, and the sensitivity of the adaptive trigger.
+- **E. Mapping Disruption and Resynchronisation:** after an interruption, the unresolved gap `G_i` shrinks cycle by cycle until it is empty.
+
 ## Questions the paper already addresses
 
 - Homunculus: no inner viewer is needed. The observer is part of what the meeting forms, so no homunculus is needed to watch it.
