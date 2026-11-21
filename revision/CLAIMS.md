@@ -40,6 +40,7 @@ graph TD
 | Weighting breaks Born rule or allows signalling | K3 consistency lemma [app L368-L435](appendices_revised.tex#L368-L435) |
 | Where does time come from in a timeless field | S3 (Page-Wootters), K2 |
 | Receiver models have no channel or rule | R1.gap1 → S1, K1, K3 |
+| If Orch OR (or `E_G`, AdEx, microtubules) fails, the model fails / modularity makes it unfalsifiable | CON-mod: each is a replaceable module; architecture-level failure conditions named |
 | Untestable | T1, T-time, T-epo, T-heat, T-mem, CON4 |
 | Free parameters everywhere | OPEN1 names the one open form (`W_i`); direction fixed by B1 data |
 | Diósi-Penrose collapse is already excluded experimentally | XC15: those bounds apply to universal noise models, not to this branch calculation |
@@ -71,115 +72,116 @@ graph TD
   - tested by T-L4: at first contact, measure prior exposure, genotype, endocrine state, familiarity and response together. [L152-L155](body_revised.tex#L152-L155)
 - **L5** Physical carrier, three levels: microtubule coherence (enters objective reduction), adaptive membrane dynamics (AdEx), recurrent neural fields (Wilson-Cowan). [L159-L170](body_revised.tex#L159-L170)
   - needs C-evidence
-- **C-evidence** Why microtubules, four requirements each with its hurdle (collective motion vs heat, joining vs size, warm coherence, matching time window): Froehlich pump threshold; Froehlich-type condensation at 300 K (Preto 2026); domain coupling (Diaz-Palencia 2025); warm coherence (Engel 2007 ff.); spin echo inside living cells, coherence time near 1 µs (Ishiwata 2026); superradiance in tryptophan/tubulin (Babcock 2024); QED-cavity decoherence 1e-7 to 1e-6 s (Mavromatos 2025). [L172-L214](body_revised.tex#L172-L214) → table [app L56-L86](appendices_revised.tex#L56-L86)
+- **C-evidence** Why microtubules, four requirements each with its hurdle (collective motion vs heat, joining vs size, warm coherence, matching time window): Froehlich pump threshold; Froehlich-type condensation at 300 K (Preto 2026); domain coupling (Diaz-Palencia 2025); warm coherence (Engel 2007 ff.); spin echo inside living cells, coherence time near 1 µs (Ishiwata 2026); superradiance in tryptophan/tubulin (Babcock 2024); QED-cavity decoherence 1e-7 to 1e-6 s (Mavromatos 2025). [L172-L215](body_revised.tex#L172-L215) → table [app L56-L86](appendices_revised.tex#L56-L86)
   - answers the coherence objection
-- **L6** The local side explains ownership and state dependence; relations beyond local encoding need a second data side. [L216-L219](body_revised.tex#L216-L219)
+- **L6** The local side explains ownership and state dependence; relations beyond local encoding need a second data side. [L217-L220](body_revised.tex#L217-L220)
   - leads to S1
 
 ## 3. The server
 
-- **S1** Timeless relational field `φ_Q`: a shared basis of relations (correlations and entanglement, network `Γ_server`), not a second finished consciousness. Called a server because it holds relations a client can meet. [L224-L232](body_revised.tex#L224-L232)
+- **S1** Timeless relational field `φ_Q`: a shared basis of relations (correlations and entanglement, network `Γ_server`), not a second finished consciousness. Called a server because it holds relations a client can meet. [L225-L233](body_revised.tex#L225-L233)
   - answers P1.gap1 (relations beyond local storage), R1.gap1 (what is "transmissible": relations, not experience)
   - formal: Wheeler-DeWitt state, correlation map `e_γ = Tr(ρ_Q C_γ)` [app L133-L151](appendices_revised.tex#L133-L151)
-- **S2** Accumulation without overwriting: a realised event leaves a relation that later mappings can meet; read and write are described from inside a local history, no server clock. [L236-L243](body_revised.tex#L236-L243) → [app L152-L186](appendices_revised.tex#L152-L186)
+- **S2** Accumulation without overwriting: a realised event leaves a relation that later mappings can meet; read and write are described from inside a local history, no server clock. [L237-L244](body_revised.tex#L237-L244) → [app L152-L186](appendices_revised.tex#L152-L186)
   - needs S3
-- **S3** Timelessness: the field holds relations, not a sequence; before and after appear only in a local history. Basis: Page-Wootters (a static universe with internally ordered observers). [L245-L251](body_revised.tex#L245-L251)
+- **S3** Timelessness: the field holds relations, not a sequence; before and after appear only in a local history. Basis: Page-Wootters (a static universe with internally ordered observers); what holds for the universe also holds in the small, for cold atoms in a bottle of laser light (Barontini 2026). [L246-L255](body_revised.tex#L246-L255)
   - answers: many life histories without a master clock
-- **S4** No owner: no biography, viewpoint or body; a shared relation `γ_ij` becomes something different for each person; ownership and perspective arise in the local mapping. [L253-L259](body_revised.tex#L253-L259)
+- **S4** No owner: no biography, viewpoint or body; a shared relation `γ_ij` becomes something different for each person; ownership and perspective arise in the local mapping. [L257-L263](body_revised.tex#L257-L263)
   - needs L1 (perspective comes from the client) → foundation of the homunculus answer
-- **S5** Weighted access, no personal areas: relation strength times current mappability, favouring nearness to the event, biography and the image in progress; weak links stay possible. Gives `Γ_i^(n)`. [L261-L270](body_revised.tex#L261-L270) → weighting rule and monotonicity bounds [app L278-L322](appendices_revised.tex#L278-L322)
+- **S5** Weighted access, no personal areas: relation strength times current mappability, favouring nearness to the event, biography and the image in progress; weak links stay possible. Gives `Γ_i^(n)`. [L265-L274](body_revised.tex#L265-L274) → weighting rule and monotonicity bounds [app L278-L322](appendices_revised.tex#L278-L322)
   - needs L1, L2
-- **S6** Neither side is a conscious image yet; a process in local time must meet a basis with no time or viewpoint. [L272-L276](body_revised.tex#L272-L276)
+- **S6** Neither side is a conscious image yet; a process in local time must meet a basis with no time or viewpoint. [L276-L280](body_revised.tex#L276-L280)
   - leads to ch. 5
 
 ## 4. The connection
 
-- **K1** Address: Wheeler-DeWitt (whole universe, no external clock) → CDT, of which only the smooth geometry at cell scale is used → local frame, spinors → twistor address, only in the practically flat neighbourhood of the event. [L289-L304](body_revised.tex#L289-L304) → [app L188-L276](appendices_revised.tex#L188-L276)
+- **K1** Address: Wheeler-DeWitt (whole universe, no external clock) → CDT, of which only the smooth geometry at cell scale is used → local frame, spinors → twistor address, only in the practically flat neighbourhood of the event. [L293-L309](body_revised.tex#L293-L309) → [app L188-L276](appendices_revised.tex#L188-L276)
   - needs S1, S3
   - this is the coupling of the timeless state to ordinary (locally Einsteinian) spacetime
-- **K2** Time direction comes from the client: proper time `u_i` orders before and after and defines the spatial rest slice on which gravity, and later `E_G`, is evaluated. [L306-L312](body_revised.tex#L306-L312) → [app L226-L261](appendices_revised.tex#L226-L261)
+- **K2** Time direction comes from the client: proper time `u_i` orders before and after and defines the spatial rest slice on which gravity, and later `E_G`, is evaluated. [L311-L317](body_revised.tex#L311-L317) → [app L226-L261](appendices_revised.tex#L226-L261)
   - answers S3 (where order comes from), needs L5 (a body with a worldline)
-- **K3** Mapping `K_i` at the address: compares relations with `B_i`, `B_i(t)`, `I_syn(t)` and any gap `G_i`; weight = strength × uptake; biological hardware limits the result to realisable branches. [L314-L321](body_revised.tex#L314-L321) → branch set, coefficients [app L324-L366](appendices_revised.tex#L324-L366)
+- **K3** Mapping `K_i` at the address: compares relations with `B_i`, `B_i(t)`, `I_syn(t)` and any gap `G_i`; weight = strength × uptake; biological hardware limits the result to realisable branches. [L319-L326](body_revised.tex#L319-L326) → branch set, coefficients [app L324-L366](appendices_revised.tex#L324-L366)
   - needs K1, K2, S5, L1-L3
   - consistency lemma: the weighting is a completely positive instrument, Born rule unchanged, no signalling between clients [app L368-L435](appendices_revised.tex#L368-L435)
-- **K4** Layer 1, before decision: Bohm's quantum potential carries the form of the branches; scale-invariant, adds no energy, chooses nothing. [L325-L332](body_revised.tex#L325-L332) → [app L465-L494](appendices_revised.tex#L465-L494)
-- **K5** Layer 2, decision: objective reduction (Orch OR). Metabolic energy drives a microtubule vibration; above threshold it recruits neighbouring regions; each region raises `E_G`; when `∫E_G ds ~ ħ`, one state is fixed. Neurons and networks carry it into the next configuration and into the shared structure. [L334-L347](body_revised.tex#L334-L347) → recruitment and trigger [app L590-L656](appendices_revised.tex#L590-L656)
+- **K4** Layer 1, before decision: Bohm's quantum potential carries the form of the branches; scale-invariant, adds no energy, chooses nothing. [L330-L338](body_revised.tex#L330-L338) → [app L465-L494](appendices_revised.tex#L465-L494)
+- **K5** Layer 2, decision: objective reduction (Orch OR). Metabolic energy drives a microtubule vibration; above threshold it recruits neighbouring regions; each region raises `E_G`; when `∫E_G ds ~ ħ`, one state is fixed. Neurons and networks carry it into the next configuration and into the shared structure. [L340-L356](body_revised.tex#L340-L356) → recruitment and trigger [app L590-L656](appendices_revised.tex#L590-L656)
   - needs K3, L5, C-evidence; fixes the event; closes S2 (write-back)
-- **K6** Each reduction closes one mapping cycle; matches discrete perception (Wiest and Puniani 2025). [L361-L364](body_revised.tex#L361-L364)
-- **N1** `E_G` from atomic coordinates of tubulin (1JFF), 13 protofilaments, no assumed collapse time; finite dimer counts for 25 and 500 ms; `N* = ħ/(τ e_G)`, so 20× shorter window needs 20× more dimers. [L366-L373](body_revised.tex#L366-L373) → [app L658-L811](appendices_revised.tex#L658-L811)
-- **N2** `E_G` grows almost exactly linearly with dimer count; cross terms negligible, bounded even for very long microtubules; no hidden N² amplification. Comes from geometry, not built in. Historical Hameroff-Penrose values only for comparison. [L375-L384](body_revised.tex#L375-L384) → lemma, deviation < 7.6e-15 up to 3.4 M dimers [app L750-L787](appendices_revised.tex#L750-L787)
+- **K6** Each reduction closes one mapping cycle; matches discrete perception (Wiest and Puniani 2025). [L370-L373](body_revised.tex#L370-L373)
+- **N1** `E_G` from atomic coordinates of tubulin (1JFF), 13 protofilaments, no assumed collapse time; finite dimer counts for 25 and 500 ms; `N* = ħ/(τ e_G)`, so 20× shorter window needs 20× more dimers. [L375-L382](body_revised.tex#L375-L382) → [app L658-L811](appendices_revised.tex#L658-L811)
+- **N2** `E_G` grows almost exactly linearly with dimer count; cross terms negligible, bounded even for very long microtubules; no hidden N² amplification. Comes from geometry, not built in. Historical Hameroff-Penrose values only for comparison. [L384-L393](body_revised.tex#L384-L393) → lemma, deviation < 7.6e-15 up to 3.4 M dimers [app L750-L787](appendices_revised.tex#L750-L787)
   - needs N1
-- **T1** Ratio test: `τ_b/τ_a = E_G,a / E_G,b` for two independently characterised carrier states; twice the `E_G`, half the time. [L386-L395](body_revised.tex#L386-L395)
+- **T1** Ratio test: `τ_b/τ_a = E_G,a / E_G,b` for two independently characterised carrier states; twice the `E_G`, half the time. [L395-L404](body_revised.tex#L395-L404)
   - tests K5, N1, N2 (physical side)
 
 ## 5. Complete model and self
 
-- **M1** Core equation: `Ψ_i = K_i(D_local, D_server, G_i | u_i)`, `∫₀^τ E_G ds = ħ`, constant `E_G` → `τ = ħ/E_G`. [L404-L421](body_revised.tex#L404-L421)
+- **M1** Core equation: `Ψ_i = K_i(D_local, D_server, G_i | u_i)`, `∫₀^τ E_G ds = ħ`, constant `E_G` → `τ = ħ/E_G`. [L413-L430](body_revised.tex#L413-L430)
   - assembles L3, S1, K2, K3, K5
-- **M2** `G_i` empty in continuous perception; after disturbance holds the unresolved part of the local sequence. [L434-L437](body_revised.tex#L434-L437) → App. E [app L1040-L1068](appendices_revised.tex#L1040-L1068)
-- **M3** `Ψ_i` = the experiential image formed and lived in one event (vision, sound, body, thought, memory, emotion). After realisation it updates `B_i` and adds a relation to the client's ordered history, reachable by later cycles. Cycle: read → map → inscribe. [L447-L454](body_revised.tex#L447-L454), figure [L456-L491](body_revised.tex#L456-L491)
+- **M2** `G_i` empty in continuous perception; after disturbance holds the unresolved part of the local sequence. [L443-L446](body_revised.tex#L443-L446) → App. E [app L1040-L1068](appendices_revised.tex#L1040-L1068)
+- **M3** `Ψ_i` = the experiential image formed and lived in one event (vision, sound, body, thought, memory, emotion). After realisation it updates `B_i` and adds a relation to the client's ordered history, reachable by later cycles. Cycle: read → map → inscribe. [L456-L463](body_revised.tex#L456-L463), figure [L465-L500](body_revised.tex#L465-L500)
   - closes S2, K5
-- **SELF1** Forming the image is experiencing it; perspective arises in the forming, not in later viewing. No inner viewer needed; the model does not forbid a homunculus, it has no work left for one. [L496-L501](body_revised.tex#L496-L501)
+- **SELF1** Forming the image is experiencing it; perspective arises in the forming, not in later viewing. No inner viewer needed; the model does not forbid a homunculus, it has no work left for one. [L505-L510](body_revised.tex#L505-L510)
   - needs M3, S4; = homunculus answer
-- **SELF2** The self is the ordered sequence of events, each inheriting the configuration of the one before; perspective is made new each event, not held by a standing observer. [L501-L504](body_revised.tex#L501-L504)
+- **SELF2** The self is the ordered sequence of events, each inheriting the configuration of the one before; perspective is made new each event, not held by a standing observer. [L510-L513](body_revised.tex#L510-L513)
   - needs SELF1, L1
-- **SELF3** Ego belongs to `B_i` (learned biographical form); `K_i` is the active process. Unconsciousness interrupts rendering, structure stays → continuity rebuilt. Structural degeneration changes the available self-model. [L506-L510](body_revised.tex#L506-L510)
+- **SELF3** Ego belongs to `B_i` (learned biographical form); `K_i` is the active process. Unconsciousness interrupts rendering, structure stays → continuity rebuilt. Structural degeneration changes the available self-model. [L515-L519](body_revised.tex#L515-L519)
   - needs L1, L2; used by clinical chapter
-- **SELF4** A relation can be shared, perspective stays with the local sequence. [L512-L517](body_revised.tex#L512-L517)
+- **SELF4** A relation can be shared, perspective stays with the local sequence. [L521-L526](body_revised.tex#L521-L526)
   - needs S4
-- **B1** Benchmark for the weighting direction: closed event structures complete patterns more strongly than open chains at equal relation count (Horner 2015); semantic and causal centrality predict recall, hippocampal recruitment and cross-participant convergence (Lee and Chen 2022). Fixes direction of `W_i` independently of the model. [L519-L528](body_revised.tex#L519-L528) → [app L878-L993](appendices_revised.tex#L878-L993)
+- **B1** Benchmark for the weighting direction: closed event structures complete patterns more strongly than open chains at equal relation count (Horner 2015); semantic and causal centrality predict recall, hippocampal recruitment and cross-participant convergence (Lee and Chen 2022). Fixes direction of `W_i` independently of the model. [L528-L537](body_revised.tex#L528-L537) → [app L878-L993](appendices_revised.tex#L878-L993)
   - supports S5; tested by T-mem (preregistered protocol)
 
 ## 6. Clinical perturbations
 
-- **A-time** Timing: conscious placement follows earlier processing over a measurable interval (Libet). Olfaction separates early registration from conscious identification; three studies give 325-400 ms between early and late responses (Harada 2003: 350; Kayser 2010: 325; Walla 2002: 400, later window stronger with awareness). [L547-L566](body_revised.tex#L547-L566)
-  - AdEx: one spike-triggered increment of `w_i` delays the next trigger, computed over full `I/I_rheo` range. [L568-L580](body_revised.tex#L568-L580) → [app L995-L1038](appendices_revised.tex#L995-L1038)
-  - carrier scaling via N1/N2. [L582-L590](body_revised.tex#L582-L590)
-  - **T-time**: record early registration, conscious report, neural state and odour familiarity in the same participants → tests range, adaptation and carrier scaling together. [L592-L595](body_revised.tex#L592-L595)
+- **A-time** Timing: conscious placement follows earlier processing over a measurable interval (Libet). Olfaction separates early registration from conscious identification; three studies give 325-400 ms between early and late responses (Harada 2003: 350; Kayser 2010: 325; Walla 2002: 400, later window stronger with awareness). [L556-L575](body_revised.tex#L556-L575)
+  - AdEx: one spike-triggered increment of `w_i` delays the next trigger, computed over full `I/I_rheo` range. [L577-L591](body_revised.tex#L577-L591) → [app L995-L1038](appendices_revised.tex#L995-L1038)
+  - carrier scaling via N1/N2. [L593-L601](body_revised.tex#L593-L601)
+  - **T-time**: record early registration, conscious report, neural state and odour familiarity in the same participants → tests range, adaptation and carrier scaling together. [L603-L606](body_revised.tex#L603-L606)
   - needs K5, K6, L5
-- **A-anaes** Anaesthesia splits by mechanism. Dissociative (ketamine): `I_syn` loses dominance, `K_i` stays active → vivid, biographical experience, weak body anchor. Suppressive (propofol): stable coupling stops, no image fixed. Neighbours: REM sleep, deep coma. [L599-L607](body_revised.tex#L599-L607)
+- **A-anaes** Anaesthesia splits by mechanism. Dissociative (ketamine): `I_syn` loses dominance, `K_i` stays active → vivid, biographical experience, weak body anchor. Suppressive (propofol): stable coupling stops, no image fixed. Neighbours: REM sleep, deep coma. [L610-L618](body_revised.tex#L610-L618)
   - needs L3, K3, K5
-- **A-mt** Microtubule link: anaesthetic potency ↔ tubulin oscillations (Craddock 2017); energy migration in microtubules damped by isoflurane and etomidate (Kalra 2023); microtubule drugs shift isoflurane sensitivity in mice (Li 2025); epothilone B delays loss of responsiveness (Khan 2024 rats, 69 s, d=1.9; Huang 2026 mice, 29 s, d=0.8). In the model a carrier change shifts the transition where stable rendering is lost. [L609-L620](body_revised.tex#L609-L620)
+- **A-mt** Microtubule link: anaesthetic potency ↔ tubulin oscillations (Craddock 2017); energy migration in microtubules damped by isoflurane and etomidate (Kalra 2023); microtubule drugs shift isoflurane sensitivity in mice (Li 2025); epothilone B delays loss of responsiveness (Khan 2024 rats, 69 s, d=1.9; Huang 2026 mice, 29 s, d=0.8). In the model a carrier change shifts the transition where stable rendering is lost. [L620-L631](body_revised.tex#L620-L631)
   - supports L5, K5; **T-epo**: size of delay should follow measured carrier change (see conclusion)
-- **A-heat** Heat as stage-resolved test without removing input. Field study (Cedeño-Laurent 2018, 44 students): about 13 % slower Stroop and arithmetic at 26.3 °C vs 21.4 °C, optimum near 22 °C. Passive heating: brain temperature up, perfusion, motor activity and Stroop accuracy down (Tan 2024). EEG: early N100 stable, later P300 earlier and smaller; cooling restores (Shibasaki 2016, Nakata 2021). [L624-L642](body_revised.tex#L624-L642)
+- **A-heat** Heat as stage-resolved test without removing input. Field study (Cedeño-Laurent 2018, 44 students): about 13 % slower Stroop and arithmetic at 26.3 °C vs 21.4 °C, optimum near 22 °C. Passive heating: brain temperature up, perfusion, motor activity and Stroop accuracy down (Tan 2024). EEG: early N100 stable, later P300 earlier and smaller; cooling restores (Shibasaki 2016, Nakata 2021). [L635-L653](body_revised.tex#L635-L653)
   - needs L2 (state), separates early registration (L3) from later processing (K3)
-  - table: brain +0.9 °C; N100 unchanged; P300 latency −3 % auditory, −7 to −9 % visual; P300 amplitude −16 to −32 %; reaction time −9 %, Stroop accuracy lower. [L645-L689](body_revised.tex#L645-L689)
-- **A-heat2** Heat does not slow the brain overall: evaluation finishes earlier, its response is smaller (warmer neurons: faster Na inactivation, shorter spikes; Yu 2012). In the model heat changes `B_i(t)` and the realisable branch set → a quicker answer from a weaker mapping; speed and integrity move in opposite directions. [L691-L698](body_revised.tex#L691-L698)
+  - table: brain +0.9 °C; N100 unchanged; P300 latency −3 % auditory, −7 to −9 % visual; P300 amplitude −16 to −32 %; reaction time −9 %, Stroop accuracy lower. [L656-L700](body_revised.tex#L656-L700)
+- **A-heat2** Heat does not slow the brain overall: evaluation finishes earlier, its response is smaller (warmer neurons: faster Na inactivation, shorter spikes; Yu 2012). In the model heat changes `B_i(t)` and the realisable branch set → a quicker answer from a weaker mapping; speed and integrity move in opposite directions. [L702-L709](body_revised.tex#L702-L709)
   - **T-heat**: speed and integrity stay opposed while early registration stays intact.
-- **A-heat3** Second, independent carrier test: microtubule shear modulus depends on temperature (Kis 2008); recruitment and trigger equations turn the measured carrier change into a change of reduction interval. Record brain temperature, carrier state, P300 and accuracy together → separates the two timescales. [L700-L707](body_revised.tex#L700-L707)
+- **A-heat3** Second, independent carrier test: microtubule shear modulus depends on temperature (Kis 2008); recruitment and trigger equations turn the measured carrier change into a change of reduction interval. Record brain temperature, carrier state, P300 and accuracy together → separates the two timescales. [L711-L718](body_revised.tex#L711-L718)
   - links A-heat to T1, N1
-- **D0** Clinical value: conditions that look alike from outside come from different disturbances inside the cycle (no stable image / no link to identity / not kept as memory / present but not expressed). Question changes from "is consciousness present" to "where is the mapping disturbed, what still works". [L716-L724](body_revised.tex#L716-L724)
+- **D0** Clinical value: conditions that look alike from outside come from different disturbances inside the cycle (no stable image / no link to identity / not kept as memory / present but not expressed). Question changes from "is consciousness present" to "where is the mapping disturbed, what still works". [L727-L735](body_revised.tex#L727-L735)
   - needs M3, SELF3; table of dissociations follows
 - **D-table** (operation → dissociation):
-  - temporal integration → akinetopsia, palinopsia [L738-L741](body_revised.tex#L738-L741)
-  - current recruitment → absence seizure (response fails, short-term storage stays) [L742-L745](body_revised.tex#L742-L745)
-  - form-to-identity → associative agnosia, prosopagnosia [L746-L749](body_revised.tex#L746-L749)
-  - familiarity weighting → Capgras (identity recognised, familiarity assigned to another source) [L750-L754](body_revised.tex#L750-L754)
-  - durable write → anterograde amnesia (H.M.) [L755-L758](body_revised.tex#L755-L758)
-  - behavioural expression → UWS, MCS, akinetic mutism (covert command following remains) [L759-L762](body_revised.tex#L759-L762)
-- **OP0** Controlled disruption gives a pattern more useful than one awake-to-unconscious scale; functions fail and return separately. [L773-L779](body_revised.tex#L773-L779)
-- **OP1** Named operations: WRITE (durable memory into `B_i`), INTERPRET/FILL (completion of content in `K_i`), ANCHORING (to body and environment via `B_i(t)`, `I_syn`), REBOOT/SYNC (staged recovery across `G_i`), OPERATION PROFILE (agent × dose). [L781-L785](body_revised.tex#L781-L785)
-- **OP2** Sync: body and senses return but the present no longer joins the last stable state; the interval is `G_i`. The interpreter maps body, history and server relations back onto senses, position and local time order. Weak or contradictory anchors → coherent experience with wrong source, viewpoint or time. [L787-L803](body_revised.tex#L787-L803) → App. E
+  - temporal integration → akinetopsia, palinopsia [L749-L752](body_revised.tex#L749-L752)
+  - current recruitment → absence seizure (response fails, short-term storage stays) [L753-L756](body_revised.tex#L753-L756)
+  - form-to-identity → associative agnosia, prosopagnosia [L757-L760](body_revised.tex#L757-L760)
+  - familiarity weighting → Capgras (identity recognised, familiarity assigned to another source) [L761-L765](body_revised.tex#L761-L765)
+  - durable write → anterograde amnesia (H.M.) [L766-L769](body_revised.tex#L766-L769)
+  - behavioural expression → UWS, MCS, akinetic mutism (covert command following remains) [L770-L773](body_revised.tex#L770-L773)
+- **OP0** Controlled disruption gives a pattern more useful than one awake-to-unconscious scale; functions fail and return separately. [L784-L790](body_revised.tex#L784-L790)
+- **OP1** Named operations: WRITE (durable memory into `B_i`), INTERPRET/FILL (completion of content in `K_i`), ANCHORING (to body and environment via `B_i(t)`, `I_syn`), REBOOT/SYNC (staged recovery across `G_i`), OPERATION PROFILE (agent × dose). [L792-L796](body_revised.tex#L792-L796)
+- **OP2** Sync: body and senses return but the present no longer joins the last stable state; the interval is `G_i`. The interpreter maps body, history and server relations back onto senses, position and local time order. Weak or contradictory anchors → coherent experience with wrong source, viewpoint or time. [L798-L814](body_revised.tex#L798-L814) → App. E
   - needs M2, K3
 - **OP-table** (operation → evidence):
-  - WRITE → midazolam; isolated forearm: 12 of 260 responded under anaesthesia, none recalled (Sanders 2017) [L817-L820](body_revised.tex#L817-L820)
-  - FILL → Charles Bonnet: images form without visual input, early visual cortex active before report [L821-L824](body_revised.tex#L821-L824)
-  - ANCHORING → ketamine, rubber hand: vivid experience, unstable ownership and location [L825-L828](body_revised.tex#L825-L828)
-  - SYNC → emergence after 3 h isoflurane: frontoparietal dynamics return before responsiveness, ordered recovery (Mashour 2021) [L829-L832](body_revised.tex#L829-L832)
-  - PROFILE → operations do not fail together or equally [L833-L836](body_revised.tex#L833-L836)
+  - WRITE → midazolam; isolated forearm: 12 of 260 responded under anaesthesia, none recalled (Sanders 2017) [L828-L831](body_revised.tex#L828-L831)
+  - FILL → Charles Bonnet: images form without visual input, early visual cortex active before report [L832-L835](body_revised.tex#L832-L835)
+  - ANCHORING → ketamine, rubber hand: vivid experience, unstable ownership and location [L836-L839](body_revised.tex#L836-L839)
+  - SYNC → emergence after 3 h isoflurane: frontoparietal dynamics return before responsiveness, ordered recovery (Mashour 2021) [L840-L843](body_revised.tex#L840-L843)
+  - PROFILE → operations do not fail together or equally [L844-L847](body_revised.tex#L844-L847)
 
 ## 7. Conclusion
 
-- **CON1** Answer to Q1: the field carries relations without a viewpoint, the living system carries the history through which a viewpoint forms; meeting in `K_i` → branches → physical fixation → inscription. [L847-L852](body_revised.tex#L847-L852)
+- **CON1** Answer to Q1: the field carries relations without a viewpoint, the living system carries the history through which a viewpoint forms; meeting in `K_i` → branches → physical fixation → inscription. [L858-L863](body_revised.tex#L858-L863)
   - answers Q1 via H1
-- **CON2** Each application touches a different point of the cycle; for medicine: ask where the mapping is disturbed and what still works. [L854-L861](body_revised.tex#L854-L861)
+- **CON2** Each application touches a different point of the cycle; for medicine: ask where the mapping is disturbed and what still works. [L865-L872](body_revised.tex#L865-L872)
   - summarises A-time, A-anaes, A-heat, D0, OP0
-- **CON3** Numbers not borrowed: `E_G` from tubulin coordinates, uncalibrated, near-linear, 1e9 to 1e12 dimers for 25 to 500 ms. [L863-L869](body_revised.tex#L863-L869)
+- **CON3** Numbers not borrowed: `E_G` from tubulin coordinates, uncalibrated, near-linear, 1e9 to 1e12 dimers for 25 to 500 ms. [L874-L880](body_revised.tex#L874-L880)
   - = N1, N2
-- **CON4** Tests with existing methods: T1 (ratio), T-epo (delay follows carrier change), T-heat (speed vs integrity), T-mem (relational structure before recall predicts convergence). Entering state measured first, consequence derived before comparison with report. [L871-L883](body_revised.tex#L871-L883)
-- **OPEN1** Exact form of `W_i` open, only direction of dependencies fixed; recruitment treated as simple onset. [L885-L888](body_revised.tex#L885-L888)
-- **OPEN2** The field is not observed directly; the tests decide, not a look at the server. [L888-L890](body_revised.tex#L888-L890)
-- **CON5** World and observer appear together in the meeting; the observer is part of what is formed, so no homunculus watches it. [L892-L896](body_revised.tex#L892-L896)
+- **CON4** Tests with existing methods: T1 (ratio), T-epo (delay follows carrier change), T-heat (speed vs integrity), T-mem (relational structure before recall predicts convergence). Entering state measured first, consequence derived before comparison with report. [L882-L894](body_revised.tex#L882-L894)
+- **CON-mod** Modular: the architecture is the meeting (history, relational field, one mapping); carrier (microtubules, 3.3), coarse geometry (CDT, K1), form layer (Bohm, K4), reduction (Orch OR, K5) and neuron model (AdEx, A-time) are replaceable realisations, each with the property a substitute must keep. T1 and T-epo test the mechanism (fail → replace mechanism); "replaced, and the model stays"; the model fails only if T-mem shows no convergence or everything met for the first time can be explained by what was already learned (T-L4). [L896-L904](body_revised.tex#L896-L904)
+- **OPEN1** Exact form of `W_i` open, only direction of dependencies fixed; recruitment treated as simple onset. [L906-L909](body_revised.tex#L906-L909)
+- **OPEN2** The field is not observed directly; the tests decide, not a look at the server. [L909-L911](body_revised.tex#L909-L911)
+- **CON5** World and observer appear together in the meeting; the observer is part of what is formed, so no homunculus watches it. [L913-L917](body_revised.tex#L913-L917)
   - = SELF1
 
 ## 8. Appendices
