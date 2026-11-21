@@ -43,6 +43,7 @@ In short, the timeless relational state is coupled to ordinary, locally Einstein
 
 - Homunculus: no inner viewer is needed. The observer is part of what the meeting forms, so no homunculus is needed to watch it.
 - Coherence in warm, wet tissue: recent measurements show it is not ruled out (Babcock et al. 2024, Kalra et al. 2023). The paper does not treat this as an open gap.
+- "If Orch OR fails, everything fails": no. The model is modular. What carries it is the meeting of a living history and a shared relational field in one mapping. The carrier (microtubules), the route to local geometry (CDT), the form layer (Bohmian potential), the reduction (Orch OR) and the neuron model (AdEx) are the best parts known today, each marked in the text with the property a substitute must keep. The ratio and epothilone tests check these parts. The model as a whole fails only if relational structure before recall does not predict convergence, or if everything met for the first time can be explained by what was already learned.
 
 ## Tests with existing methods
 
@@ -54,7 +55,7 @@ In short, the timeless relational state is coupled to ordinary, locally Einstein
 
 ## Open by design
 
-The exact form of the weighting function `W_i` is not yet fixed, only the direction of its dependencies. The relational field is not observed directly. The tests, not a look at the server, decide whether the model holds.
+The exact form of the weighting function `W_i` is not yet fixed, only the direction of its dependencies. It is not free, though. Appendix C bounds it between 0 and 1 (weighting can only damp), makes it depend on local geometric invariants rather than coordinates, fixes four signs (more biographical affinity and pattern overlap raise the weight; more proper-time and spatial distance lower it), uses one shared rule across all applications, and excludes spacelike settings (no signalling). Its inputs are client quantities, not the carrier's quantum state, so the weighting stays a linear instrument. The relational field is not observed directly. The tests, not a look at the server, decide whether the model holds.
 
 ## How to read it
 

@@ -42,7 +42,7 @@ graph TD
 | Receiver models have no channel or rule | R1.gap1 → S1, K1, K3 |
 | If Orch OR (or `E_G`, AdEx, microtubules) fails, the model fails / modularity makes it unfalsifiable | CON-mod: each is a replaceable module; architecture-level failure conditions named |
 | Untestable | T1, T-time, T-epo, T-heat, T-mem, CON4 |
-| Free parameters everywhere | OPEN1 names the one open form (`W_i`); direction fixed by B1 data |
+| Free parameters everywhere / which properties of `W_i` are physically required | OPEN1 names the one open form (`W_i`); guard rails in [app L288-L322](appendices_revised.tex#L288-L322): bounded 0..1, covariant (local invariants only), four signs, one shared rule across applications; causal via XC6; inputs are client quantities, not the carrier state (linear instrument); direction fixed by B1 data |
 | Diósi-Penrose collapse is already excluded experimentally | XC15: those bounds apply to universal noise models, not to this branch calculation |
 | "Coherence" in App. D means quantum coherence | XD2: there it is relational (pattern) coherence `η` |
 
